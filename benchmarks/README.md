@@ -2,6 +2,8 @@
 
 Historical benchmark data for NVIDIA model performance tracking.
 
+**Test Prompt:** "For men in 50s, what are the top 3 most important daily health habits?"
+
 ## Files
 
 - **Latest:** [`latest.json`](latest.json) - Most recent benchmark results

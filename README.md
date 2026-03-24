@@ -39,7 +39,7 @@ Models must:
 ## Benchmark Methodology
 
 Models are tested with:
-- **Prompt:** "For a 57-year-old man, what are the top 3 most important daily health habits?"
+- **Prompt:** "For men in 50s, what are the top 3 most important daily health habits?"
 - **Metrics:** Response time, word count, quality score (structure, completeness)
 - **Source:** All available NVIDIA-hosted models via https://integrate.api.nvidia.com/v1
 - **Rate limiting:** 40 requests/minute, 5 concurrent
