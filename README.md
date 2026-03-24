@@ -16,6 +16,11 @@ Curated lists of NVIDIA-hosted models optimized for multi-LLM verification tasks
   - Timeout: 120 seconds
   - Selection: 75-100th percentile (truly thoughtful responses)
 
+- **`benchmarks/`** - [Benchmark history](benchmarks/) (performance tracking over time)
+  - [`latest.json`](benchmarks/latest.json) - Most recent benchmark results
+  - `YYYY-MM-DD.json` - Daily snapshots (30-day retention)
+  - Track model performance trends, availability changes
+
 ## Model Selection Criteria
 
 ### Conversational Models Only
