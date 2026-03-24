@@ -1,0 +1,1375 @@
+{
+  "timestamp": "2026-03-23T22:26:38.539333",
+  "total_models_tested": 189,
+  "successful_models": 84,
+  "failed_models": 105,
+  "conversational_models": 77,
+  "success_rate": 44.4,
+  "results": [
+    {
+      "model": "adept/fuyu-8b",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.24562859535217285
+    },
+    {
+      "model": "01-ai/yi-large",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.2961392402648926
+    },
+    {
+      "model": "aisingapore/sea-lion-7b-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.15294265747070312
+    },
+    {
+      "model": "baai/bge-m3",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.14492273330688477
+    },
+    {
+      "model": "ai21labs/jamba-1.5-large-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.4752953052520752
+    },
+    {
+      "model": "bigcode/starcoder2-15b",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.16136956214904785
+    },
+    {
+      "model": "bigcode/starcoder2-7b",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.15555882453918457
+    },
+    {
+      "model": "databricks/dbrx-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.38529443740844727
+    },
+    {
+      "model": "deepseek-ai/deepseek-coder-6.7b-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.19129633903503418
+    },
+    {
+      "model": "ai21labs/jamba-1.5-mini-instruct",
+      "status": "success",
+      "response_time": 4.121459722518921,
+      "word_count": 186,
+      "quality_score": 1.0,
+      "response": " For a 57-year-old man, focusing on the following three daily health habits can significantly improve overall well-being and longevity:\n\n1. **Regular Physical Activity**:\n\n\n  * Engage in at least 150 ...",
+      "combined_score": 0.8973257379511662
+    },
+    {
+      "model": "deepseek-ai/deepseek-r1-distill-qwen-14b",
+      "status": "error",
+      "error": "500 Server Error: Internal Server Error for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.3166813850402832
+    },
+    {
+      "model": "deepseek-ai/deepseek-r1-distill-qwen-32b",
+      "status": "error",
+      "error": "500 Server Error: Internal Server Error for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.3196384906768799
+    },
+    {
+      "model": "deepseek-ai/deepseek-r1-distill-qwen-7b",
+      "status": "error",
+      "error": "500 Server Error: Internal Server Error for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.31853699684143066
+    },
+    {
+      "model": "baichuan-inc/baichuan2-13b-chat",
+      "status": "success",
+      "response_time": 7.405818700790405,
+      "word_count": 121,
+      "quality_score": 1.0,
+      "response": "As a language model, I cannot provide specific medical advice.But for a 57-year-old man, the following are possible the top 3 most important daily health habits: 1. Healthy diet:Mainly includes a bala...",
+      "combined_score": 0.8155054225529637
+    },
+    {
+      "model": "deepseek-ai/deepseek-r1-distill-llama-8b",
+      "status": "success",
+      "response_time": 10.808883666992188,
+      "word_count": 690,
+      "quality_score": 1.0,
+      "response": "<think>\nOkay, so I need to figure out the top 3 most important daily health habits for a 57-year-old man. I'm not a health expert, but I'll try to think it through step by step.\n\nFirst, I know that as...",
+      "combined_score": 0.7307278904082459
+    },
+    {
+      "model": "abacusai/dracarys-llama-3.1-70b-instruct",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "google/codegemma-1.1-7b",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.18304204940795898
+    },
+    {
+      "model": "google/codegemma-7b",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.18508315086364746
+    },
+    {
+      "model": "google/deplot",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.16851568222045898
+    },
+    {
+      "model": "bytedance/seed-oss-36b-instruct",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "deepseek-ai/deepseek-v3.1",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "google/gemma-2-2b-it",
+      "status": "success",
+      "response_time": 4.872860670089722,
+      "word_count": 315,
+      "quality_score": 1.0,
+      "response": "It's great that you're focusing on health!  Here are the top 3 daily habits for a 57-year-old man, emphasizing the importance of prevention and longevity:\n\n1. **Consistent Physical Activity:** \n    * ...",
+      "combined_score": 0.8786067541471768
+    },
+    {
+      "model": "google/gemma-2b",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.16786646842956543
+    },
+    {
+      "model": "deepseek-ai/deepseek-v3.1-terminus",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "google/gemma-2-27b-it",
+      "status": "success",
+      "response_time": 9.472416877746582,
+      "word_count": 298,
+      "quality_score": 1.0,
+      "response": "It's great that a 57-year-old man is focusing on his health! Here are three of the most important daily habits, tailored to his age group:\n\n1. **Stay Active:**\n\n* **Why it's crucial:** As we age, musc...",
+      "combined_score": 0.7640220993965849
+    },
+    {
+      "model": "google/gemma-3-1b-it",
+      "status": "success",
+      "response_time": 3.700324773788452,
+      "word_count": 469,
+      "quality_score": 1.0,
+      "response": "Okay, let\u2019s break down the top 3 most important daily health habits for a 57-year-old man. It\u2019s important to remember that everyone is different, but these are generally considered crucial for overall...",
+      "combined_score": 0.9078170985357717
+    },
+    {
+      "model": "deepseek-ai/deepseek-v3.2",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "google/gemma-2-9b-it",
+      "status": "success",
+      "response_time": 6.991211175918579,
+      "word_count": 173,
+      "quality_score": 1.0,
+      "response": "It's great that this 57-year-old man is focusing on his health! \n\nWhile I can't give medical advice, here are 3 crucial daily habits often recommended for men in this age group:\n\n1. **Regular Physical...",
+      "combined_score": 0.825834171229923
+    },
+    {
+      "model": "google/gemma-3-12b-it",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "google/gemma-7b",
+      "status": "success",
+      "response_time": 2.200467109680176,
+      "word_count": 51,
+      "quality_score": 0.755,
+      "response": "1. **Regular Exercise:** Engage in moderate-intensity aerobic activity for 30 minutes most days of the week.\n2. **Healthy Diet:** Maintain a balanced diet rich in fruits, vegetables, whole grains, lea...",
+      "combined_score": 0.8226817191334678
+    },
+    {
+      "model": "google/paligemma",
+      "status": "error",
+      "error": "422 Client Error: Unprocessable Entity for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.3056755065917969
+    },
+    {
+      "model": "google/recurrentgemma-2b",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.17154145240783691
+    },
+    {
+      "model": "google/shieldgemma-9b",
+      "status": "success",
+      "response_time": 0.45798802375793457,
+      "word_count": 1,
+      "quality_score": 0.255,
+      "response": "No",
+      "combined_score": 0.6160905515199818
+    },
+    {
+      "model": "google/gemma-3-27b-it",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "ibm/granite-3.0-3b-a800m-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.1920015811920166
+    },
+    {
+      "model": "ibm/granite-3.0-8b-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.1965503692626953
+    },
+    {
+      "model": "google/gemma-3-4b-it",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "ibm/granite-34b-code-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.1623976230621338
+    },
+    {
+      "model": "ibm/granite-8b-code-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.18666338920593262
+    },
+    {
+      "model": "google/gemma-3n-e2b-it",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "google/gemma-3n-e4b-it",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "ibm/granite-guardian-3.0-8b",
+      "status": "success",
+      "response_time": 0.4198646545410156,
+      "word_count": 1,
+      "quality_score": 0.255,
+      "response": "No",
+      "combined_score": 0.6170402851252322
+    },
+    {
+      "model": "gotocompany/gemma-2-9b-cpt-sahabatai-instruct",
+      "status": "success",
+      "response_time": 4.714763164520264,
+      "word_count": 163,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, the top 3 most important daily health habits are:\n\n1. **Regular exercise:** Maintaining physical activity is crucial at this age to prevent age-related decline in strength, flex...",
+      "combined_score": 0.8825452967531894
+    },
+    {
+      "model": "igenius/italia_10b_instruct_16k",
+      "status": "success",
+      "response_time": 1.567521333694458,
+      "word_count": 35,
+      "quality_score": 0.425,
+      "response": "I'm sorry, but I can't assist with that. As an AI, I can provide general advice about healthy habits, but it's important to consult a healthcare professional for personalized advice tailored to your s...",
+      "combined_score": 0.6734497345555721
+    },
+    {
+      "model": "marin/marin-8b-instruct",
+      "status": "success",
+      "response_time": 2.334956407546997,
+      "word_count": 109,
+      "quality_score": 1.0,
+      "response": "The top 3 most important daily health habits for a 57-year-old man are:\n\n1. **Diet & Nutrition**: Eating a balanced, whole-foods-based diet rich in fruits, vegetables, lean proteins, whole grains, and...",
+      "combined_score": 0.9418313068180219
+    },
+    {
+      "model": "mediatek/breeze-7b-instruct",
+      "status": "error",
+      "error": "400 Client Error: Bad Request for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.33784008026123047
+    },
+    {
+      "model": "meta/codellama-70b",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.38820672035217285
+    },
+    {
+      "model": "institute-of-science-tokyo/llama-3.1-swallow-8b-instruct-v0.1",
+      "status": "success",
+      "response_time": 8.503020286560059,
+      "word_count": 284,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, here are the top 3 most important daily health habits:\n\n1. **Stay hydrated**: Drinking enough water is crucial for maintaining healthy bodily functions, including digestion, cir...",
+      "combined_score": 0.788171814869699
+    },
+    {
+      "model": "meta/llama-3.1-405b-instruct",
+      "status": "success",
+      "response_time": 6.869820833206177,
+      "word_count": 235,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, the top 3 most important daily health habits are:\n\n1. **Regular Physical Activity**: Engage in at least 30 minutes of moderate-intensity exercise, such as brisk walking, cycling...",
+      "combined_score": 0.8288582609207069
+    },
+    {
+      "model": "meta/llama-3.1-70b-instruct",
+      "status": "success",
+      "response_time": 3.13771390914917,
+      "word_count": 208,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, the top 3 most important daily health habits can be:\n\n1. **Staying Hydrated and Eating a Balanced Diet**: Drinking plenty of water (at least 8 cups a day) and consuming a balanc...",
+      "combined_score": 0.9218329228399311
+    },
+    {
+      "model": "meta/llama-3.1-8b-instruct",
+      "status": "success",
+      "response_time": 2.0031299591064453,
+      "word_count": 223,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, maintaining a healthy lifestyle is crucial to prevent chronic diseases and promote overall well-being. Based on current health recommendations, here are the top 3 most important...",
+      "combined_score": 0.950097804131041
+    },
+    {
+      "model": "meta/llama-3.2-1b-instruct",
+      "status": "success",
+      "response_time": 2.0159192085266113,
+      "word_count": 272,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, the top 3 most important daily health habits can vary, but generally, the following are crucial to maintain overall health and well-being:\n\n1. **Regular Physical Activity**: Eng...",
+      "combined_score": 0.949779196930005
+    },
+    {
+      "model": "ibm/granite-3.3-8b-instruct",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "meta/llama-3.2-3b-instruct",
+      "status": "success",
+      "response_time": 4.447708368301392,
+      "word_count": 287,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, the top 3 most important daily health habits are:\n\n1. **Regular Exercise**: Aim for at least 150 minutes of moderate-intensity aerobic exercise, or 75 minutes of vigorous-intens...",
+      "combined_score": 0.8891981954770465
+    },
+    {
+      "model": "igenius/colosseum_355b_instruct_16k",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "institute-of-science-tokyo/llama-3.1-swallow-70b-instruct-v0.1",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "meta/llama-4-scout-17b-16e-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.17691874504089355
+    },
+    {
+      "model": "meta/llama-guard-4-12b",
+      "status": "success",
+      "response_time": 0.37206196784973145,
+      "word_count": 1,
+      "quality_score": 0.255,
+      "response": "safe",
+      "combined_score": 0.618231150961713
+    },
+    {
+      "model": "meta/llama2-70b",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.1852703094482422
+    },
+    {
+      "model": "meta/llama-4-maverick-17b-128e-instruct",
+      "status": "success",
+      "response_time": 3.943873405456543,
+      "word_count": 347,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, incorporating healthy daily habits can significantly impact overall health, reducing the risk of chronic diseases such as heart disease, diabetes, and certain cancers. Here are ...",
+      "combined_score": 0.9017497879921565
+    },
+    {
+      "model": "meta/llama-3.3-70b-instruct",
+      "status": "success",
+      "response_time": 5.427562236785889,
+      "word_count": 322,
+      "quality_score": 1.0,
+      "response": "As we age, it's essential to prioritize daily health habits to maintain overall well-being. Based on general health guidelines, here are the top 3 most important daily health habits for a 57-year-old ...",
+      "combined_score": 0.8647879671512305
+    },
+    {
+      "model": "microsoft/kosmos-2",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.4142019748687744
+    },
+    {
+      "model": "meta/llama3-8b-instruct",
+      "status": "success",
+      "response_time": 6.312919855117798,
+      "word_count": 299,
+      "quality_score": 1.0,
+      "response": "As we age, it's essential to prioritize daily habits that promote overall health and well-being. Based on scientific research and expert recommendations, here are the top 3 most important daily health...",
+      "combined_score": 0.8427318398973691
+    },
+    {
+      "model": "meta/llama-3.2-11b-vision-instruct",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "meta/llama3-70b-instruct",
+      "status": "success",
+      "response_time": 12.422351837158203,
+      "word_count": 351,
+      "quality_score": 1.0,
+      "response": "As we age, it's essential to prioritize daily habits that support overall health and well-being. Based on scientific research and expert recommendations, here are the top 3 most important daily health...",
+      "combined_score": 0.6905329922739922
+    },
+    {
+      "model": "microsoft/phi-3-mini-4k-instruct",
+      "status": "success",
+      "response_time": 4.194213151931763,
+      "word_count": 186,
+      "quality_score": 1.0,
+      "response": "The top 3 most important daily health habits for a 57-year-old man are:\n\n1. Regular exercise: Engaging in at least 30 minutes of moderate-intensity aerobic activity, such as brisk walking, swimming, o...",
+      "combined_score": 0.8955132964427193
+    },
+    {
+      "model": "meta/llama-3.2-90b-vision-instruct",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "microsoft/phi-3-mini-128k-instruct",
+      "status": "success",
+      "response_time": 6.052679538726807,
+      "word_count": 118,
+      "quality_score": 1.0,
+      "response": "1. Regular Physical Activity: Engage in moderate-intensity exercise like brisk walking or cycling for at least 150 minutes a week, or vigorous activity like running or cycling for 75 minutes a week. S...",
+      "combined_score": 0.8492149755434137
+    },
+    {
+      "model": "microsoft/phi-3-vision-128k-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.17225098609924316
+    },
+    {
+      "model": "microsoft/phi-3-small-128k-instruct",
+      "status": "success",
+      "response_time": 2.471172332763672,
+      "word_count": 97,
+      "quality_score": 0.985,
+      "response": " 1. Balanced Diet: Consuming a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats can help maintain a healthy weight, reduce the risk of chronic diseases, and promote overall...",
+      "combined_score": 0.9309378805703978
+    },
+    {
+      "model": "microsoft/phi-3.5-moe-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.15770196914672852
+    },
+    {
+      "model": "microsoft/phi-3-medium-4k-instruct",
+      "status": "success",
+      "response_time": 10.390333414077759,
+      "word_count": 246,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, maintaining good health is crucial for an active, fulfilling life. The top three most important daily health habits are:\n\n1. Balanced Nutrition: Consuming a well-balanced diet f...",
+      "combined_score": 0.7411548607638065
+    },
+    {
+      "model": "microsoft/phi-3-small-8k-instruct",
+      "status": "success",
+      "response_time": 2.3774428367614746,
+      "word_count": 102,
+      "quality_score": 1.0,
+      "response": "1. Balanced Diet: Consume a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats. Limit intake of processed foods, added sugars, and sodium.\n\n 2. Regular Physical Activity: Eng...",
+      "combined_score": 0.9407728801778555
+    },
+    {
+      "model": "microsoft/phi-3.5-vision-instruct",
+      "status": "success",
+      "response_time": 3.262047052383423,
+      "word_count": 138,
+      "quality_score": 1.0,
+      "response": " \nFor a 57-year-old man, the top three most important daily health habits include:\n\n\n1. **Maintaining a Balanced Diet**: A diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fat...",
+      "combined_score": 0.918735521775925
+    },
+    {
+      "model": "microsoft/phi-3-medium-128k-instruct",
+      "status": "success",
+      "response_time": 20.05071258544922,
+      "word_count": 244,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, maintaining good health is crucial for long-term wellness and quality of life. While individual needs may vary depending on overall health, lifestyle, and existing medical condi...",
+      "combined_score": 0.5004944226396449
+    },
+    {
+      "model": "microsoft/phi-3.5-mini-instruct",
+      "status": "success",
+      "response_time": 20.07055926322937,
+      "word_count": 417,
+      "quality_score": 1.0,
+      "response": "Maintaining good health is crucial at any age, especially for a 57-year-old man. Here are the top three daily health habits that could have a significant impact on long-term wellbeing:\n\n1. Regular Phy...",
+      "combined_score": 0.5
+    },
+    {
+      "model": "microsoft/phi-4-mini-flash-reasoning",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "mistralai/codestral-22b-instruct-v0.1",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.16554951667785645
+    },
+    {
+      "model": "microsoft/phi-4-mini-instruct",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "microsoft/phi-4-multimodal-instruct",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "minimaxai/minimax-m2.1",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "mistralai/mamba-codestral-7b-v0.1",
+      "status": "success",
+      "response_time": 4.521787881851196,
+      "word_count": 132,
+      "quality_score": 1.0,
+      "response": "While the specific health habits that are most important can vary from person to person, here are three generally recommended daily habits that can be beneficial for a 57-year-old man:\n\n1. Regular Exe...",
+      "combined_score": 0.8873527184133971
+    },
+    {
+      "model": "mistralai/mathstral-7b-v0.1",
+      "status": "success",
+      "response_time": 4.8747029304504395,
+      "word_count": 152,
+      "quality_score": 1.0,
+      "response": " Maintaining good health is crucial at any age, and there are several daily habits that can be beneficial for a 57-year-old man. Here are the top three:\n\n1. Regular Exercise: Physical activity is esse...",
+      "combined_score": 0.8785608595525978
+    },
+    {
+      "model": "mistralai/devstral-2-123b-instruct-2512",
+      "status": "success",
+      "response_time": 12.860212087631226,
+      "word_count": 409,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, prioritizing health habits that address age-related risks (e.g., heart disease, metabolic decline, muscle loss, and cognitive health) is key. Here are the **top 3 most important...",
+      "combined_score": 0.6796249691160323
+    },
+    {
+      "model": "mistralai/mistral-7b-instruct-v0.2",
+      "status": "success",
+      "response_time": 7.341735363006592,
+      "word_count": 249,
+      "quality_score": 1.0,
+      "response": " While I cannot specifically determine the top three most important daily health habits for a 57-year-old man without a thorough evaluation of his medical history, current health status, and individua...",
+      "combined_score": 0.8171018737764535
+    },
+    {
+      "model": "mistralai/mistral-large",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.17271685600280762
+    },
+    {
+      "model": "mistralai/mistral-large-2-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.18805170059204102
+    },
+    {
+      "model": "mistralai/mistral-7b-instruct-v0.3",
+      "status": "success",
+      "response_time": 4.6881866455078125,
+      "word_count": 142,
+      "quality_score": 1.0,
+      "response": " 1. Balanced Diet: Maintaining a balanced diet is crucial for overall health at any age, but especially for individuals over 50. This includes plenty of fruits, vegetables, lean proteins, whole grains...",
+      "combined_score": 0.8832073739445594
+    },
+    {
+      "model": "minimaxai/minimax-m2.5",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "mistralai/magistral-small-2506",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "mistralai/ministral-14b-instruct-2512",
+      "status": "success",
+      "response_time": 16.51512885093689,
+      "word_count": 710,
+      "quality_score": 1.0,
+      "response": "For a **57-year-old man**, maintaining optimal health involves a combination of **preventive care, lifestyle habits, and stress management** to reduce the risk of chronic diseases (like heart disease,...",
+      "combined_score": 0.5885732770487933
+    },
+    {
+      "model": "mistralai/mistral-nemotron",
+      "status": "success",
+      "response_time": 9.577384948730469,
+      "word_count": 292,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, prioritizing health habits that support longevity, disease prevention, and overall well-being is crucial. Here are the **top 3 most important daily health habits** to focus on:\n...",
+      "combined_score": 0.7614071231618122
+    },
+    {
+      "model": "mistralai/mistral-medium-3-instruct",
+      "status": "success",
+      "response_time": 12.468140125274658,
+      "word_count": 267,
+      "quality_score": 1.0,
+      "response": "For a **57-year-old man**, maintaining health is crucial to prevent age-related decline, chronic diseases, and maintain vitality. Here are the **top 3 most important daily health habits**:\n\n### **1. R...",
+      "combined_score": 0.689392309358386
+    },
+    {
+      "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+      "status": "success",
+      "response_time": 4.655740737915039,
+      "word_count": 204,
+      "quality_score": 1.0,
+      "response": " 1. Healthy Eating: A balanced diet rich in fruits, vegetables, lean proteins, and whole grains is essential for maintaining good health. Incorporating foods rich in essential nutrients can help preve...",
+      "combined_score": 0.8840156699956868
+    },
+    {
+      "model": "mistralai/mixtral-8x22b-v0.1",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.15460610389709473
+    },
+    {
+      "model": "mistralai/mistral-small-4-119b-2603",
+      "status": "success",
+      "response_time": 7.178004264831543,
+      "word_count": 543,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, maintaining optimal health becomes increasingly important to prevent chronic diseases, maintain mobility, and ensure long-term well-being. Here are the **top 3 most important da...",
+      "combined_score": 0.8211807610667299
+    },
+    {
+      "model": "mistralai/mistral-small-24b-instruct",
+      "status": "success",
+      "response_time": 15.229403018951416,
+      "word_count": 304,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, maintaining good health habits is crucial for overall well-being and longevity. Here are the top three most important daily health habits:\n\n1. **Regular Physical Activity**:\n   ...",
+      "combined_score": 0.6206034216781213
+    },
+    {
+      "model": "mistralai/mistral-small-3.1-24b-instruct-2503",
+      "status": "success",
+      "response_time": 13.856082439422607,
+      "word_count": 286,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, maintaining good health often involves a combination of physical activity, a balanced diet, and mental well-being. Here are the top three most important daily health habits:\n\n1....",
+      "combined_score": 0.6548157363804034
+    },
+    {
+      "model": "mistralai/mistral-large-3-675b-instruct-2512",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "moonshotai/kimi-k2-instruct-0905",
+      "status": "success",
+      "response_time": 3.3665738105773926,
+      "word_count": 207,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, the **top 3 daily health habits** that give the biggest return on effort are:\n\n1. **Move with purpose for 30\u201345 minutes** \u2013 Not just \u201cbe active,\u201d but *brisk walking, cycling, ro...",
+      "combined_score": 0.9161315395743559
+    },
+    {
+      "model": "nv-mistralai/mistral-nemo-12b-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.38426995277404785
+    },
+    {
+      "model": "nvidia/cosmos-reason2-8b",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.17961740493774414
+    },
+    {
+      "model": "nvidia/embed-qa-4",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.14647507667541504
+    },
+    {
+      "model": "mistralai/mixtral-8x7b-instruct-v0.1",
+      "status": "success",
+      "response_time": 4.763473272323608,
+      "word_count": 205,
+      "quality_score": 1.0,
+      "response": " While individual health needs can vary, some important daily health habits for a 57-year-old man might include:\n\n1. Regular Exercise: The American Heart Association recommends at least 150 minutes pe...",
+      "combined_score": 0.8813318251412502
+    },
+    {
+      "model": "nvidia/gliner-pii",
+      "status": "success",
+      "response_time": 0.34915757179260254,
+      "word_count": 28,
+      "quality_score": 0.64,
+      "response": "{\"total_entities\": 1, \"entities\": [{\"text\": \"man\", \"label\": \"occupation\", \"start\": 18, \"end\": 21, \"score\": 0.714}], \"tagged_text\": \"For a 57-year-old <occupation>man</occupation>, what are the top 3 m...",
+      "combined_score": 0.8113017478184505
+    },
+    {
+      "model": "nvidia/llama-3.1-nemoguard-8b-content-safety",
+      "status": "success",
+      "response_time": 0.4492928981781006,
+      "word_count": 3,
+      "quality_score": 0.265,
+      "response": "{\"User Safety\": \"safe\"} ",
+      "combined_score": 0.6213071654535
+    },
+    {
+      "model": "nvidia/llama-3.1-nemotron-51b-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.15363168716430664
+    },
+    {
+      "model": "nvidia/llama-3.1-nemoguard-8b-topic-control",
+      "status": "success",
+      "response_time": 0.363537073135376,
+      "word_count": 1,
+      "quality_score": 0.505,
+      "response": "off-topic ",
+      "combined_score": 0.7434435240850163
+    },
+    {
+      "model": "nvidia/llama-3.1-nemotron-70b-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.1810624599456787
+    },
+    {
+      "model": "nvidia/llama-3.1-nemotron-70b-reward",
+      "status": "success",
+      "response_time": 0.6061067581176758,
+      "word_count": 1,
+      "quality_score": 0.505,
+      "response": "reward:-14.0625",
+      "combined_score": 0.737400601169891
+    },
+    {
+      "model": "moonshotai/kimi-k2-instruct",
+      "status": "success",
+      "response_time": 8.709280729293823,
+      "word_count": 184,
+      "quality_score": 1.0,
+      "response": "1. Move with purpose every day  \n   60 minutes of brisk walking, cycling, swimming, or similar moderate-intensity activity keeps weight, blood pressure, lipids, insulin sensitivity, joints, mood, and ...",
+      "combined_score": 0.7830334318274375
+    },
+    {
+      "model": "nvidia/llama-3.1-nemotron-nano-8b-v1",
+      "status": "success",
+      "response_time": 6.341851472854614,
+      "word_count": 225,
+      "quality_score": 1.0,
+      "response": "Sure, I'd be happy to help! For a 57-year-old man, the top 3 daily health habits could include:\n\n1. **Regular Physical Activity**: Exercise is crucial for maintaining cardiovascular health, managing w...",
+      "combined_score": 0.8420110922251849
+    },
+    {
+      "model": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
+      "status": "success",
+      "response_time": 1.0089473724365234,
+      "word_count": 3,
+      "quality_score": 0.265,
+      "response": "{\"User Safety\": \"safe\"} ",
+      "combined_score": 0.6073649910746388
+    },
+    {
+      "model": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
+      "status": "success",
+      "response_time": 8.15945029258728,
+      "word_count": 221,
+      "quality_score": 1.0,
+      "response": "Sure, I'd be happy to help with that! Here are the top 3 most important daily health habits for a 57-year-old man:\n\n1. **Healthy Eating:** A balanced diet is crucial for maintaining good health. Aim f...",
+      "combined_score": 0.7967308686924348
+    },
+    {
+      "model": "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.15008234977722168
+    },
+    {
+      "model": "nvidia/llama-3.2-nemoretriever-300m-embed-v1",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.13648772239685059
+    },
+    {
+      "model": "nvidia/llama-3.2-nv-embedqa-1b-v1",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.13210225105285645
+    },
+    {
+      "model": "nvidia/llama-3.2-nv-embedqa-1b-v2",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.14468836784362793
+    },
+    {
+      "model": "moonshotai/kimi-k2-thinking",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "moonshotai/kimi-k2.5",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "nvidia/llama-nemotron-embed-1b-v2",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.14989042282104492
+    },
+    {
+      "model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.1426868438720703
+    },
+    {
+      "model": "nvidia/llama3-chatqa-1.5-70b",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.3892662525177002
+    },
+    {
+      "model": "nvidia/llama3-chatqa-1.5-8b",
+      "status": "error",
+      "error": "422 Client Error: Unprocessable Entity for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.312633752822876
+    },
+    {
+      "model": "nvidia/mistral-nemo-minitron-8b-8k-instruct",
+      "status": "error",
+      "error": "502 Server Error: Bad Gateway for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.15372014045715332
+    },
+    {
+      "model": "nvidia/mistral-nemo-minitron-8b-base",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.1444234848022461
+    },
+    {
+      "model": "nvidia/nemoretriever-parse",
+      "status": "error",
+      "error": "400 Client Error: Bad Request for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.3067054748535156
+    },
+    {
+      "model": "nvidia/llama-3.1-nemotron-nano-4b-v1.1",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "nvidia/nemotron-3-nano-30b-a3b",
+      "status": "success",
+      "response_time": 4.988690376281738,
+      "word_count": 611,
+      "quality_score": 1.0,
+      "response": "**The three daily habits that give a 57\u2011year\u2011old man the biggest bang\u2011for\u2011his\u2011buck in terms of long\u2011term health, energy, and disease\u2011prevention are:**\n\n| # | Habit | Why it matters at 57 | How to make...",
+      "combined_score": 0.8757211916505645
+    },
+    {
+      "model": "nvidia/nemotron-4-340b-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.1892077922821045
+    },
+    {
+      "model": "nvidia/nemotron-4-340b-reward",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.1621108055114746
+    },
+    {
+      "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "nvidia/nemotron-4-mini-hindi-4b-instruct",
+      "status": "success",
+      "response_time": 3.6980371475219727,
+      "word_count": 232,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, here are the top 3 most important daily health habits:\n\n1. **Maintain a Healthy Diet**: Ensure a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healt...",
+      "combined_score": 0.9078740881352263
+    },
+    {
+      "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "nvidia/nemotron-mini-4b-instruct",
+      "status": "success",
+      "response_time": 4.552155017852783,
+      "word_count": 286,
+      "quality_score": 1.0,
+      "response": "As a 57-year-old man, maintaining your health and well-being is crucial for continued living. Here are the top three most important daily health habits that can significantly contribute to your overal...",
+      "combined_score": 0.8865962089508725
+    },
+    {
+      "model": "nvidia/nemotron-nano-3-30b-a3b",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.25557804107666016
+    },
+    {
+      "model": "nvidia/nemotron-parse",
+      "status": "error",
+      "error": "400 Client Error: Bad Request for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.31193065643310547
+    },
+    {
+      "model": "nvidia/neva-22b",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.16145730018615723
+    },
+    {
+      "model": "nvidia/nv-embed-v1",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.1452622413635254
+    },
+    {
+      "model": "nvidia/nv-embedcode-7b-v1",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.1303417682647705
+    },
+    {
+      "model": "nvidia/nv-embedqa-e5-v5",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.14367032051086426
+    },
+    {
+      "model": "nvidia/nv-embedqa-mistral-7b-v2",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.1297917366027832
+    },
+    {
+      "model": "nvidia/nvclip",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.13397645950317383
+    },
+    {
+      "model": "nvidia/nemotron-content-safety-reasoning-4b",
+      "status": "success",
+      "response_time": 7.462780952453613,
+      "word_count": 353,
+      "quality_score": 1.0,
+      "response": "Okay, for a 57-year-old man, focusing on daily habits that build long-term health is key. Here are the top 3 most important, with explanations:\n\n1. **Regular Physical Activity (at least 150 minutes of...",
+      "combined_score": 0.8140863726172809
+    },
+    {
+      "model": "nvidia/riva-translate-4b-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.1615893840789795
+    },
+    {
+      "model": "nvidia/riva-translate-4b-instruct-v1.1",
+      "status": "success",
+      "response_time": 1.1012763977050781,
+      "word_count": 14,
+      "quality_score": 0.5700000000000001,
+      "response": "For a 57-year-old man, what are the top 3 most important daily health habits?",
+      "combined_score": 0.757564880149536
+    },
+    {
+      "model": "nvidia/streampetr",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.3105762004852295
+    },
+    {
+      "model": "nvidia/usdcode-llama-3.1-70b-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.1570136547088623
+    },
+    {
+      "model": "nvidia/vila",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.16393804550170898
+    },
+    {
+      "model": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "nvidia/nemotron-nano-12b-v2-vl",
+      "status": "success",
+      "response_time": 5.7565343379974365,
+      "word_count": 415,
+      "quality_score": 1.0,
+      "response": "For a **57-year-old man**, maintaining long-term health and vitality is crucial. Here are the **top 3 most important daily health habits** that can significantly impact overall well-being, energy leve...",
+      "combined_score": 0.8565925776531849
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "openai/gpt-oss-20b",
+      "status": "success",
+      "response_time": 3.8367252349853516,
+      "word_count": 407,
+      "quality_score": 1.0,
+      "response": "**For a 57\u2011year\u2011old man, the three daily habits that give the biggest return on health are:**\n\n| # | Habit | Why it matters | How to do it in practice |\n|---|-------|-----------------|----------------...",
+      "combined_score": 0.9044190751073267
+    },
+    {
+      "model": "openai/gpt-oss-20b",
+      "status": "success",
+      "response_time": 7.279756307601929,
+      "word_count": 513,
+      "quality_score": 1.0,
+      "response": "**Top 3 Daily Health Habits for a 57\u2011Year\u2011Old Man**\n\n| # | Habit | Why It Matters | Quick \u201cDo\u2011It\u201d Checklist |\n|---|-------|----------------|------------------------|\n| 1 | **Regular Physical Activity*...",
+      "combined_score": 0.8186459028837593
+    },
+    {
+      "model": "nvidia/nvidia-nemotron-nano-9b-v2",
+      "status": "success",
+      "response_time": 12.166409730911255,
+      "word_count": 308,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, the top three most important daily health habits should focus on maintaining physical health, preventing disease, and promoting longevity. Here are the key priorities:\n\n1. **Reg...",
+      "combined_score": 0.6969090504318696
+    },
+    {
+      "model": "openai/gpt-oss-120b",
+      "status": "success",
+      "response_time": 8.788480043411255,
+      "word_count": 1050,
+      "quality_score": 1.0,
+      "response": "**The three daily habits that give a 57\u2011year\u2011old man the biggest bang\u2011for\u2011his\u2011buck in terms of longevity, disease\u2011prevention, and quality of life are:**\n\n| # | Habit | Why it matters (the science) | H...",
+      "combined_score": 0.7810604097238001
+    },
+    {
+      "model": "opengpt-x/teuken-7b-instruct-commercial-v0.4",
+      "status": "success",
+      "response_time": 2.9814367294311523,
+      "word_count": 92,
+      "quality_score": 0.96,
+      "response": " 1. Exercise regularly: Exercise helps improve cardiovascular health, strengthen muscles and bones, and reduce the risk of chronic diseases such as diabetes, cancer, and heart disease.\n2. Eat a health...",
+      "combined_score": 0.9057261172862944
+    },
+    {
+      "model": "openai/gpt-oss-120b",
+      "status": "success",
+      "response_time": 10.059686660766602,
+      "word_count": 1043,
+      "quality_score": 1.0,
+      "response": "## The 3\u202fDaily Health Habits That Give a 57\u2011Year\u2011Old Man the Biggest Return on Investment  \n\n| Rank | Habit | Why it matters at\u202f57\u202fy/o | 5\u2011Minute \u201cstarter\u201d actions you can do today | How to keep it co...",
+      "combined_score": 0.7493919693808275
+    },
+    {
+      "model": "qwen/qwen3-coder-480b-a35b-instruct",
+      "status": "error",
+      "error": "400 Client Error: Bad Request for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.14018464088439941
+    },
+    {
+      "model": "qwen/qwen2.5-coder-32b-instruct",
+      "status": "success",
+      "response_time": 5.831538200378418,
+      "word_count": 212,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, maintaining a healthy lifestyle is crucial for both physical and mental well-being. Here are three top daily health habits that can significantly impact overall health:\n\n1. **Re...",
+      "combined_score": 0.8547240731088597
+    },
+    {
+      "model": "qwen/qwen2.5-7b-instruct",
+      "status": "success",
+      "response_time": 7.600764036178589,
+      "word_count": 254,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, maintaining a healthy lifestyle is crucial to prevent chronic diseases, maintain vitality, and improve overall quality of life. Here are the top three most important daily healt...",
+      "combined_score": 0.8106489227207608
+    },
+    {
+      "model": "qwen/qwen2-7b-instruct",
+      "status": "success",
+      "response_time": 9.693223476409912,
+      "word_count": 350,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, maintaining a healthy lifestyle is crucial to support overall well-being and reduce the risk of age-related diseases. Here are the top three daily health habits that are particu...",
+      "combined_score": 0.758521340903326
+    },
+    {
+      "model": "qwen/qwen2.5-coder-7b-instruct",
+      "status": "success",
+      "response_time": 8.969958305358887,
+      "word_count": 301,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, maintaining a healthy lifestyle is crucial to overall well-being and can help prevent numerous health issues. Here are three top daily health habits that are particularly import...",
+      "combined_score": 0.7765394031198607
+    },
+    {
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "status": "success",
+      "response_time": 8.89201307296753,
+      "word_count": 480,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, maintaining optimal health at this stage of life is crucial for preventing chronic disease, preserving mobility and cognitive function, and enhancing quality of life. Based on c...",
+      "combined_score": 0.7784811834003474
+    },
+    {
+      "model": "rakuten/rakutenai-7b-chat",
+      "status": "success",
+      "response_time": 5.770527124404907,
+      "word_count": 167,
+      "quality_score": 1.0,
+      "response": "1. Exercise: Regular physical activity is important for cardiovascular health, maintaining muscle mass, and reducing the risk of chronic diseases. It can also help to manage stress and improve mood. F...",
+      "combined_score": 0.8562439878051404
+    },
+    {
+      "model": "rakuten/rakutenai-7b-instruct",
+      "status": "success",
+      "response_time": 2.613347291946411,
+      "word_count": 71,
+      "quality_score": 0.855,
+      "response": "The top 3 most important daily health habits for a 57-year-old man would be the following:\n1. Engaging in regular physical activity, ideally at least 30 minutes of moderate to vigorous intensity exerc...",
+      "combined_score": 0.862396002207217
+    },
+    {
+      "model": "qwen/qwen3-next-80b-a3b-thinking",
+      "status": "success",
+      "response_time": 16.46682906150818,
+      "word_count": 1515,
+      "quality_score": 1.0,
+      "response": "Okay, the user is asking about the top 3 most important daily health habits for a 57-year-old man. Let me start by understanding why they're asking this. At 57, he's likely entering later adulthood wh...",
+      "combined_score": 0.5897765267638424
+    },
+    {
+      "model": "snowflake/arctic-embed-l",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.14666414260864258
+    },
+    {
+      "model": "qwen/qwen3.5-122b-a10b",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "qwen/qwen3.5-397b-a17b",
+      "status": "success",
+      "response_time": 18.649819374084473,
+      "word_count": 494,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, the body is often in a transitional phase where the cumulative effects of lifestyle choices become more apparent, and the risk for chronic conditions (such as heart disease, typ...",
+      "combined_score": 0.5353936298065144
+    },
+    {
+      "model": "speakleash/bielik-11b-v2.3-instruct",
+      "status": "success",
+      "response_time": 6.214707612991333,
+      "word_count": 202,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, the top 3 most important daily health habits would be:\n\n1. Exercise regularly: Engaging in regular physical activity can help maintain a healthy weight, prevent chronic diseases...",
+      "combined_score": 0.8451785141738153
+    },
+    {
+      "model": "qwen/qwq-32b",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "thudm/chatglm3-6b",
+      "status": "success",
+      "response_time": 4.04688024520874,
+      "word_count": 152,
+      "quality_score": 1.0,
+      "response": " As an AI language model, I do not have personal experiences, but based on general health practices and recommendations, here are the top 3 most important daily health habits for a 57-year-old man:\n\n1...",
+      "combined_score": 0.899183670167505
+    },
+    {
+      "model": "speakleash/bielik-11b-v2.6-instruct",
+      "status": "success",
+      "response_time": 6.736429214477539,
+      "word_count": 119,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, the top 3 most important daily health habits are:\n\n1. Regular physical activity: Engaging in at least 150 minutes of moderate-intensity aerobic exercise or 75 minutes of vigorou...",
+      "combined_score": 0.8321813277316309
+    },
+    {
+      "model": "tiiuae/falcon3-7b-instruct",
+      "status": "success",
+      "response_time": 4.609186172485352,
+      "word_count": 239,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, maintaining or adopting certain daily health habits can be crucial for overall well-being and longevity. Here are the top three important daily health habits:\n\n1. **Regular Phys...",
+      "combined_score": 0.8851754424967695
+    },
+    {
+      "model": "sarvamai/sarvam-m",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "stockmark/stockmark-2-100b-instruct",
+      "status": "success",
+      "response_time": 11.80491852760315,
+      "word_count": 14,
+      "quality_score": 0.5700000000000001,
+      "response": "57\u6b73\u306e\u7537\u6027\u306b\u3068\u3063\u3066\u3001\u6700\u3082\u91cd\u8981\u306a3\u3064\u306e\u6bce\u65e5\u306e\u5065\u5eb7\u7fd2\u6163\u306f\u4ee5\u4e0b\u306e\u901a\u308a\u3067\u3059:\n\n1. **\u9069\u5ea6\u306a\u904b\u52d5** - \u6bce\u65e5\u5c11\u306a\u304f\u3068\u308230\u5206\u9593\u306e\u9069\u5ea6\u306a\u904b\u52d5\u3092\u884c\u3046\u3053\u3068\u3067\u3001\u5fc3\u81d3\u75c5\u3084\u7cd6\u5c3f\u75c5\u306a\u3069\u306e\u751f\u6d3b\u7fd2\u6163\u75c5\u306e\u30ea\u30b9\u30af\u3092\u4f4e\u6e1b\u3067\u304d\u307e\u3059\u3002\u6709\u9178\u7d20\u904b\u52d5(\u30a6\u30a9\u30fc\u30ad\u30f3\u30b0\u3001\u6c34\u6cf3\u3001\u81ea\u8ee2\u8eca\u306a\u3069)\u3068\u7b4b\u529b\u30c8\u30ec\u30fc\u30cb\u30f3\u30b0\u3092\u7d44\u307f\u5408\u308f\u305b\u308b\u3068\u3001\u3088\u308a\u52b9\u679c\u7684\u3067\u3059\u3002\u307e\u305f\u3001\u67d4\u8edf\u6027\u3092\u9ad8\u3081\u308b\u30b9\u30c8\u30ec\u30c3\u30c1\u30f3\u30b0\u3082\u91cd\u8981\u3067\u3059\u3002\n\n2. **\u30d0\u30e9\u30f3\u30b9\u306e\u53d6\u308c\u305f\u98df\u4e8b** - \u91ce\u83dc\u3001\u679c...",
+      "combined_score": 0.49091455941064477
+    },
+    {
+      "model": "writer/palmyra-creative-122b",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.17330694198608398
+    },
+    {
+      "model": "writer/palmyra-fin-70b-32k",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.17939329147338867
+    },
+    {
+      "model": "writer/palmyra-med-70b",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.18111443519592285
+    },
+    {
+      "model": "writer/palmyra-med-70b-32k",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.407273530960083
+    },
+    {
+      "model": "utter-project/eurollm-9b-instruct",
+      "status": "success",
+      "response_time": 6.5695154666900635,
+      "word_count": 247,
+      "quality_score": 1.0,
+      "response": "Here are the top 3 most important daily health habits for a 57-year-old man:\n\n1. **Eat a balanced diet**: Focusing on whole, nutrient-dense foods such as fruits, vegetables, whole grains, lean protein...",
+      "combined_score": 0.8363395015422947
+    },
+    {
+      "model": "yentinglin/llama-3-taiwan-70b-instruct",
+      "status": "success",
+      "response_time": 6.312426805496216,
+      "word_count": 135,
+      "quality_score": 1.0,
+      "response": "For a 57-year-old man, the top 3 most important daily health habits are:\n1. Eating a healthy diet: A healthy diet should include plenty of fruits and vegetables, whole grains, lean protein, and health...",
+      "combined_score": 0.8427441228042656
+    },
+    {
+      "model": "stepfun-ai/step-3.5-flash",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "zyphra/zamba2-7b-instruct",
+      "status": "error",
+      "error": "404 Client Error: Not Found for url: https://integrate.api.nvidia.com/v1/chat/completions",
+      "response_time": 0.17925763130187988
+    },
+    {
+      "model": "upstage/solar-10.7b-instruct",
+      "status": "success",
+      "response_time": 9.662179708480835,
+      "word_count": 192,
+      "quality_score": 1.0,
+      "response": "Maintaining good health is essential for people of all ages, and for a 57-year-old man, the following are three crucial daily health habits:\n\n1. Regular exercise: Incorporate at least 150 minutes of m...",
+      "combined_score": 0.7592947066955278
+    },
+    {
+      "model": "tokyotech-llm/llama-3-swallow-70b-instruct-v0.1",
+      "status": "success",
+      "response_time": 14.512380838394165,
+      "word_count": 211,
+      "quality_score": 1.0,
+      "response": "As a helpful assistant, I would recommend the following top 3 most important daily health habits for a 57-year-old man:\n\n1. **Regular Exercise**: Engaging in regular physical activity is crucial for m...",
+      "combined_score": 0.6384659578225647
+    },
+    {
+      "model": "z-ai/glm4.7",
+      "status": "timeout",
+      "response_time": 20
+    },
+    {
+      "model": "z-ai/glm5",
+      "status": "timeout",
+      "response_time": 20
+    }
+  ],
+  "fast_models_selected": [
+    "nvidia/gliner-pii",
+    "nvidia/llama-3.1-nemoguard-8b-topic-control",
+    "meta/llama-guard-4-12b",
+    "ibm/granite-guardian-3.0-8b",
+    "nvidia/llama-3.1-nemoguard-8b-content-safety"
+  ],
+  "deep_models_selected": [
+    "nvidia/nemotron-4-mini-hindi-4b-instruct",
+    "google/gemma-3-1b-it",
+    "openai/gpt-oss-20b",
+    "meta/llama-4-maverick-17b-128e-instruct",
+    "thudm/chatglm3-6b"
+  ]
+}

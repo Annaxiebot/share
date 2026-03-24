@@ -1,0 +1,11 @@
+{
+  "last_updated": "2026-03-23T22:26:00-08:00",
+  "benchmarks_available": 1,
+  "date_range": {
+    "earliest": "2026-03-23",
+    "latest": "2026-03-23"
+  },
+  "trends": {
+    "note": "Will populate after 7+ days of data"
+  }
+}
