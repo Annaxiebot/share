@@ -1,43 +1,43 @@
 {
-  "updated": "2026-03-23T03:08:55.461279",
-  "description": "Models for deep research - slower but more thorough. Response time 25-75th percentile.",
-  "benchmark_file": "benchmark-20260323-030001.json",
+  "updated": "2026-03-24T03:09:22.552608",
+  "description": "Models for deep research - slowest 25% (75-100th percentile). Most thorough responses.",
+  "benchmark_file": "benchmark-20260324-030002.json",
   "timeout": 120,
   "deep_models": [
     {
       "rank": 1,
-      "model": "nvidia/nemotron-4-mini-hindi-4b-instruct",
-      "response_time": 3.7,
+      "model": "upstage/solar-10.7b-instruct",
+      "response_time": 10.55,
       "quality_score": 1.0,
-      "word_count": 232
+      "word_count": 208
     },
     {
       "rank": 2,
-      "model": "google/gemma-3-1b-it",
-      "response_time": 3.7,
+      "model": "nvidia/llama-3.1-nemotron-nano-8b-v1",
+      "response_time": 10.57,
       "quality_score": 1.0,
-      "word_count": 469
+      "word_count": 363
     },
     {
       "rank": 3,
-      "model": "openai/gpt-oss-20b",
-      "response_time": 3.84,
+      "model": "meta/llama-3.2-11b-vision-instruct",
+      "response_time": 10.71,
       "quality_score": 1.0,
-      "word_count": 407
+      "word_count": 311
     },
     {
       "rank": 4,
-      "model": "meta/llama-4-maverick-17b-128e-instruct",
-      "response_time": 3.94,
+      "model": "google/gemma-2-9b-it",
+      "response_time": 11.31,
       "quality_score": 1.0,
-      "word_count": 347
+      "word_count": 261
     },
     {
       "rank": 5,
-      "model": "thudm/chatglm3-6b",
-      "response_time": 4.05,
+      "model": "microsoft/phi-3-medium-4k-instruct",
+      "response_time": 11.34,
       "quality_score": 1.0,
-      "word_count": 152
+      "word_count": 294
     }
   ]
 }

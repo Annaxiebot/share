@@ -1,45 +1,45 @@
 {
-  "updated": "2026-03-23T03:08:55.461252",
+  "updated": "2026-03-24T03:09:22.552582",
   "description": "Fastest models for quick verification. Timeout: 10 seconds.",
-  "benchmark_file": "benchmark-20260323-030001.json",
-  "total_models_tested": 189,
-  "successful_models": 84,
+  "benchmark_file": "benchmark-20260324-030002.json",
+  "total_models_tested": 179,
+  "successful_models": 71,
   "timeout": 10,
   "fast_models": [
     {
       "rank": 1,
-      "model": "nvidia/gliner-pii",
-      "response_time": 0.35,
-      "quality_score": 0.64,
-      "word_count": 28
+      "model": "nvidia/riva-translate-4b-instruct-v1.1",
+      "response_time": 1.15,
+      "quality_score": 0.33,
+      "word_count": 15
     },
     {
       "rank": 2,
-      "model": "nvidia/llama-3.1-nemoguard-8b-topic-control",
-      "response_time": 0.36,
-      "quality_score": 0.51,
-      "word_count": 1
+      "model": "meta/llama-3.1-8b-instruct",
+      "response_time": 2.34,
+      "quality_score": 1.0,
+      "word_count": 248
     },
     {
       "rank": 3,
-      "model": "meta/llama-guard-4-12b",
-      "response_time": 0.37,
-      "quality_score": 0.26,
-      "word_count": 1
+      "model": "rakuten/rakutenai-7b-chat",
+      "response_time": 2.49,
+      "quality_score": 0.86,
+      "word_count": 72
     },
     {
       "rank": 4,
-      "model": "ibm/granite-guardian-3.0-8b",
-      "response_time": 0.42,
-      "quality_score": 0.26,
-      "word_count": 1
+      "model": "moonshotai/kimi-k2-instruct-0905",
+      "response_time": 2.54,
+      "quality_score": 1.0,
+      "word_count": 184
     },
     {
       "rank": 5,
-      "model": "nvidia/llama-3.1-nemoguard-8b-content-safety",
-      "response_time": 0.45,
-      "quality_score": 0.27,
-      "word_count": 3
+      "model": "igenius/italia_10b_instruct_16k",
+      "response_time": 2.72,
+      "quality_score": 0.59,
+      "word_count": 68
     }
   ]
 }
