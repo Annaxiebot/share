@@ -1,0 +1,45 @@
+{
+  "updated": "2026-03-23T03:08:55.461252",
+  "description": "Fastest models for quick verification. Timeout: 10 seconds.",
+  "benchmark_file": "benchmark-20260323-030001.json",
+  "total_models_tested": 189,
+  "successful_models": 84,
+  "timeout": 10,
+  "fast_models": [
+    {
+      "rank": 1,
+      "model": "nvidia/gliner-pii",
+      "response_time": 0.35,
+      "quality_score": 0.64,
+      "word_count": 28
+    },
+    {
+      "rank": 2,
+      "model": "nvidia/llama-3.1-nemoguard-8b-topic-control",
+      "response_time": 0.36,
+      "quality_score": 0.51,
+      "word_count": 1
+    },
+    {
+      "rank": 3,
+      "model": "meta/llama-guard-4-12b",
+      "response_time": 0.37,
+      "quality_score": 0.26,
+      "word_count": 1
+    },
+    {
+      "rank": 4,
+      "model": "ibm/granite-guardian-3.0-8b",
+      "response_time": 0.42,
+      "quality_score": 0.26,
+      "word_count": 1
+    },
+    {
+      "rank": 5,
+      "model": "nvidia/llama-3.1-nemoguard-8b-content-safety",
+      "response_time": 0.45,
+      "quality_score": 0.27,
+      "word_count": 3
+    }
+  ]
+}
