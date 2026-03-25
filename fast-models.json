@@ -1,45 +1,45 @@
 {
-  "updated": "2026-03-24T03:09:22.552582",
+  "updated": "2026-03-25T03:09:06.697985",
   "description": "Fastest models for quick verification. Timeout: 10 seconds.",
-  "benchmark_file": "benchmark-20260324-030002.json",
-  "total_models_tested": 179,
-  "successful_models": 71,
+  "benchmark_file": "benchmark-20260325-030001.json",
+  "total_models_tested": 177,
+  "successful_models": 75,
   "timeout": 10,
   "fast_models": [
     {
       "rank": 1,
-      "model": "nvidia/riva-translate-4b-instruct-v1.1",
-      "response_time": 1.15,
-      "quality_score": 0.33,
-      "word_count": 15
+      "model": "meta/llama-3.2-1b-instruct",
+      "response_time": 2.26,
+      "quality_score": 1.0,
+      "word_count": 289
     },
     {
       "rank": 2,
       "model": "meta/llama-3.1-8b-instruct",
-      "response_time": 2.34,
+      "response_time": 2.45,
       "quality_score": 1.0,
-      "word_count": 248
+      "word_count": 337
     },
     {
       "rank": 3,
+      "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+      "response_time": 2.48,
+      "quality_score": 1.0,
+      "word_count": 174
+    },
+    {
+      "rank": 4,
       "model": "rakuten/rakutenai-7b-chat",
-      "response_time": 2.49,
+      "response_time": 2.51,
       "quality_score": 0.86,
       "word_count": 72
     },
     {
-      "rank": 4,
-      "model": "moonshotai/kimi-k2-instruct-0905",
-      "response_time": 2.54,
-      "quality_score": 1.0,
-      "word_count": 184
-    },
-    {
       "rank": 5,
-      "model": "igenius/italia_10b_instruct_16k",
-      "response_time": 2.72,
-      "quality_score": 0.59,
-      "word_count": 68
+      "model": "openai/gpt-oss-20b",
+      "response_time": 2.59,
+      "quality_score": 1.0,
+      "word_count": 354
     }
   ]
 }
