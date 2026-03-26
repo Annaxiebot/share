@@ -1,45 +1,45 @@
 {
-  "updated": "2026-03-25T03:09:06.697985",
+  "updated": "2026-03-26T03:09:21.313090",
   "description": "Fastest models for quick verification. Timeout: 10 seconds.",
-  "benchmark_file": "benchmark-20260325-030001.json",
-  "total_models_tested": 177,
-  "successful_models": 75,
+  "benchmark_file": "benchmark-20260326-030002.json",
+  "total_models_tested": 176,
+  "successful_models": 73,
   "timeout": 10,
   "fast_models": [
     {
       "rank": 1,
-      "model": "meta/llama-3.2-1b-instruct",
-      "response_time": 2.26,
+      "model": "moonshotai/kimi-k2-instruct-0905",
+      "response_time": 1.8,
       "quality_score": 1.0,
-      "word_count": 289
+      "word_count": 112
     },
     {
       "rank": 2,
-      "model": "meta/llama-3.1-8b-instruct",
-      "response_time": 2.45,
-      "quality_score": 1.0,
-      "word_count": 337
+      "model": "microsoft/phi-3-small-8k-instruct",
+      "response_time": 2.34,
+      "quality_score": 0.95,
+      "word_count": 90
     },
     {
       "rank": 3,
-      "model": "mistralai/mixtral-8x22b-instruct-v0.1",
-      "response_time": 2.48,
-      "quality_score": 1.0,
-      "word_count": 174
-    },
-    {
-      "rank": 4,
       "model": "rakuten/rakutenai-7b-chat",
-      "response_time": 2.51,
+      "response_time": 2.45,
       "quality_score": 0.86,
       "word_count": 72
     },
     {
+      "rank": 4,
+      "model": "microsoft/phi-3-small-128k-instruct",
+      "response_time": 2.65,
+      "quality_score": 0.99,
+      "word_count": 99
+    },
+    {
       "rank": 5,
-      "model": "openai/gpt-oss-20b",
-      "response_time": 2.59,
-      "quality_score": 1.0,
-      "word_count": 354
+      "model": "igenius/italia_10b_instruct_16k",
+      "response_time": 2.92,
+      "quality_score": 0.59,
+      "word_count": 68
     }
   ]
 }
