@@ -1,43 +1,43 @@
 {
-  "updated": "2026-03-26T03:09:21.313117",
+  "updated": "2026-03-27T03:09:17.393775",
   "description": "Models for deep research - slowest 25% (75-100th percentile). Most thorough responses.",
-  "benchmark_file": "benchmark-20260326-030002.json",
+  "benchmark_file": "benchmark-20260327-030001.json",
   "timeout": 120,
   "deep_models": [
     {
       "rank": 1,
-      "model": "google/gemma-2-27b-it",
-      "response_time": 11.37,
+      "model": "upstage/solar-10.7b-instruct",
+      "response_time": 10.37,
       "quality_score": 1.0,
-      "word_count": 334
+      "word_count": 208
     },
     {
       "rank": 2,
-      "model": "microsoft/phi-3-medium-4k-instruct",
-      "response_time": 11.42,
+      "model": "deepseek-ai/deepseek-r1-distill-llama-8b",
+      "response_time": 10.6,
       "quality_score": 1.0,
-      "word_count": 294
+      "word_count": 673
     },
     {
       "rank": 3,
-      "model": "meta/llama-3.2-90b-vision-instruct",
-      "response_time": 11.58,
+      "model": "google/gemma-2-9b-it",
+      "response_time": 10.73,
       "quality_score": 1.0,
-      "word_count": 221
+      "word_count": 264
     },
     {
       "rank": 4,
-      "model": "mistralai/mistral-medium-3-instruct",
-      "response_time": 11.74,
+      "model": "institute-of-science-tokyo/llama-3.1-swallow-8b-instruct-v0.1",
+      "response_time": 10.75,
       "quality_score": 1.0,
-      "word_count": 261
+      "word_count": 337
     },
     {
       "rank": 5,
-      "model": "nvidia/llama-3.1-nemotron-nano-8b-v1",
-      "response_time": 12.0,
+      "model": "tiiuae/falcon3-7b-instruct",
+      "response_time": 10.97,
       "quality_score": 1.0,
-      "word_count": 363
+      "word_count": 334
     }
   ]
 }
