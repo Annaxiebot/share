@@ -1,45 +1,45 @@
 {
-  "updated": "2026-03-30T03:09:31.294468",
+  "updated": "2026-03-31T03:09:43.298708",
   "description": "Fastest models for quick verification. Timeout: 10 seconds.",
-  "benchmark_file": "benchmark-20260330-030001.json",
-  "total_models_tested": 176,
+  "benchmark_file": "benchmark-20260331-030002.json",
+  "total_models_tested": 175,
   "successful_models": 66,
   "timeout": 10,
   "fast_models": [
     {
       "rank": 1,
-      "model": "microsoft/phi-3-small-128k-instruct",
-      "response_time": 2.37,
-      "quality_score": 0.97,
-      "word_count": 94
-    },
-    {
-      "rank": 2,
       "model": "rakuten/rakutenai-7b-chat",
-      "response_time": 2.44,
+      "response_time": 2.63,
       "quality_score": 0.86,
       "word_count": 72
     },
     {
+      "rank": 2,
+      "model": "igenius/italia_10b_instruct_16k",
+      "response_time": 2.78,
+      "quality_score": 0.59,
+      "word_count": 68
+    },
+    {
       "rank": 3,
-      "model": "microsoft/phi-3-small-8k-instruct",
-      "response_time": 2.72,
+      "model": "openai/gpt-oss-20b",
+      "response_time": 2.83,
       "quality_score": 1.0,
-      "word_count": 123
+      "word_count": 452
     },
     {
       "rank": 4,
       "model": "marin/marin-8b-instruct",
-      "response_time": 2.83,
+      "response_time": 2.85,
       "quality_score": 1.0,
       "word_count": 155
     },
     {
       "rank": 5,
-      "model": "rakuten/rakutenai-7b-instruct",
+      "model": "nvidia/nemotron-nano-12b-v2-vl",
       "response_time": 2.92,
-      "quality_score": 0.96,
-      "word_count": 91
+      "quality_score": 1.0,
+      "word_count": 226
     }
   ]
 }
