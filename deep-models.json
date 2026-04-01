@@ -1,43 +1,43 @@
 {
-  "updated": "2026-03-31T03:09:43.298739",
+  "updated": "2026-04-01T03:09:29.699180",
   "description": "Models for deep research - slowest 25% (75-100th percentile). Most thorough responses.",
-  "benchmark_file": "benchmark-20260331-030002.json",
+  "benchmark_file": "benchmark-20260401-030001.json",
   "timeout": 120,
   "deep_models": [
     {
       "rank": 1,
       "model": "baichuan-inc/baichuan2-13b-chat",
-      "response_time": 9.85,
+      "response_time": 9.79,
       "quality_score": 1.0,
       "word_count": 176
     },
     {
       "rank": 2,
-      "model": "deepseek-ai/deepseek-r1-distill-llama-8b",
-      "response_time": 10.18,
+      "model": "upstage/solar-10.7b-instruct",
+      "response_time": 10.43,
       "quality_score": 1.0,
-      "word_count": 652
+      "word_count": 208
     },
     {
       "rank": 3,
-      "model": "upstage/solar-10.7b-instruct",
-      "response_time": 10.47,
+      "model": "mistralai/mistral-small-4-119b-2603",
+      "response_time": 10.85,
       "quality_score": 1.0,
-      "word_count": 209
+      "word_count": 569
     },
     {
       "rank": 4,
-      "model": "microsoft/phi-3-medium-4k-instruct",
-      "response_time": 11.25,
+      "model": "openai/gpt-oss-120b",
+      "response_time": 11.05,
       "quality_score": 1.0,
-      "word_count": 294
+      "word_count": 816
     },
     {
       "rank": 5,
-      "model": "stepfun-ai/step-3.5-flash",
-      "response_time": 11.29,
+      "model": "speakleash/bielik-11b-v2.6-instruct",
+      "response_time": 11.53,
       "quality_score": 1.0,
-      "word_count": 635
+      "word_count": 241
     }
   ]
 }

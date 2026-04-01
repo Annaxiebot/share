@@ -1,45 +1,45 @@
 {
-  "updated": "2026-03-31T03:09:43.298708",
+  "updated": "2026-04-01T03:09:29.699153",
   "description": "Fastest models for quick verification. Timeout: 10 seconds.",
-  "benchmark_file": "benchmark-20260331-030002.json",
-  "total_models_tested": 175,
-  "successful_models": 66,
+  "benchmark_file": "benchmark-20260401-030001.json",
+  "total_models_tested": 176,
+  "successful_models": 69,
   "timeout": 10,
   "fast_models": [
     {
       "rank": 1,
+      "model": "meta/llama-3.2-1b-instruct",
+      "response_time": 2.1,
+      "quality_score": 1.0,
+      "word_count": 289
+    },
+    {
+      "rank": 2,
+      "model": "microsoft/phi-3-small-8k-instruct",
+      "response_time": 2.27,
+      "quality_score": 0.98,
+      "word_count": 97
+    },
+    {
+      "rank": 3,
       "model": "rakuten/rakutenai-7b-chat",
-      "response_time": 2.63,
+      "response_time": 2.45,
       "quality_score": 0.86,
       "word_count": 72
     },
     {
-      "rank": 2,
-      "model": "igenius/italia_10b_instruct_16k",
-      "response_time": 2.78,
-      "quality_score": 0.59,
-      "word_count": 68
-    },
-    {
-      "rank": 3,
-      "model": "openai/gpt-oss-20b",
-      "response_time": 2.83,
-      "quality_score": 1.0,
-      "word_count": 452
-    },
-    {
       "rank": 4,
-      "model": "marin/marin-8b-instruct",
-      "response_time": 2.85,
-      "quality_score": 1.0,
-      "word_count": 155
+      "model": "thudm/chatglm3-6b",
+      "response_time": 2.75,
+      "quality_score": 0.97,
+      "word_count": 95
     },
     {
       "rank": 5,
-      "model": "nvidia/nemotron-nano-12b-v2-vl",
-      "response_time": 2.92,
+      "model": "microsoft/phi-4-multimodal-instruct",
+      "response_time": 2.77,
       "quality_score": 1.0,
-      "word_count": 226
+      "word_count": 113
     }
   ]
 }
