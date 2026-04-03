@@ -1,43 +1,43 @@
 {
-  "updated": "2026-04-02T03:09:32.152091",
+  "updated": "2026-04-03T03:10:05.911640",
   "description": "Models for deep research - slowest 25% (75-100th percentile). Most thorough responses.",
-  "benchmark_file": "benchmark-20260402-030002.json",
+  "benchmark_file": "benchmark-20260403-030002.json",
   "timeout": 120,
   "deep_models": [
     {
       "rank": 1,
-      "model": "mistralai/mistral-nemotron",
-      "response_time": 10.02,
+      "model": "baichuan-inc/baichuan2-13b-chat",
+      "response_time": 9.78,
       "quality_score": 1.0,
-      "word_count": 297
+      "word_count": 176
     },
     {
       "rank": 2,
-      "model": "upstage/solar-10.7b-instruct",
-      "response_time": 10.49,
+      "model": "deepseek-ai/deepseek-r1-distill-llama-8b",
+      "response_time": 10.15,
       "quality_score": 1.0,
-      "word_count": 208
+      "word_count": 618
     },
     {
       "rank": 3,
-      "model": "speakleash/bielik-11b-v2.6-instruct",
-      "response_time": 10.65,
+      "model": "mistralai/mistral-small-4-119b-2603",
+      "response_time": 10.64,
       "quality_score": 1.0,
-      "word_count": 205
+      "word_count": 612
     },
     {
       "rank": 4,
-      "model": "microsoft/phi-3-medium-4k-instruct",
-      "response_time": 11.44,
+      "model": "moonshotai/kimi-k2-instruct",
+      "response_time": 10.65,
       "quality_score": 1.0,
-      "word_count": 294
+      "word_count": 180
     },
     {
       "rank": 5,
-      "model": "mistralai/mistral-small-4-119b-2603",
-      "response_time": 12.06,
+      "model": "upstage/solar-10.7b-instruct",
+      "response_time": 11.01,
       "quality_score": 1.0,
-      "word_count": 664
+      "word_count": 208
     }
   ]
 }
