@@ -1,43 +1,43 @@
 {
-  "updated": "2026-04-10T03:09:51.710835",
+  "updated": "2026-04-11T03:09:42.462900",
   "description": "Models for deep research - slowest 25% (75-100th percentile). Most thorough responses.",
-  "benchmark_file": "benchmark-20260410-030002.json",
+  "benchmark_file": "benchmark-20260411-030001.json",
   "timeout": 120,
   "deep_models": [
     {
       "rank": 1,
-      "model": "institute-of-science-tokyo/llama-3.1-swallow-8b-instruct-v0.1",
-      "response_time": 10.06,
+      "model": "openai/gpt-oss-120b",
+      "response_time": 10.94,
       "quality_score": 1.0,
-      "word_count": 315
+      "word_count": 841
     },
     {
       "rank": 2,
-      "model": "upstage/solar-10.7b-instruct",
-      "response_time": 10.49,
-      "quality_score": 1.0,
-      "word_count": 208
-    },
-    {
-      "rank": 3,
-      "model": "mistralai/mistral-small-4-119b-2603",
-      "response_time": 11.11,
-      "quality_score": 1.0,
-      "word_count": 770
-    },
-    {
-      "rank": 4,
       "model": "microsoft/phi-3-medium-4k-instruct",
-      "response_time": 11.22,
+      "response_time": 11.42,
       "quality_score": 1.0,
       "word_count": 294
     },
     {
-      "rank": 5,
-      "model": "meta/llama-3.2-11b-vision-instruct",
-      "response_time": 11.85,
+      "rank": 3,
+      "model": "mistralai/mistral-medium-3-instruct",
+      "response_time": 12.24,
       "quality_score": 1.0,
-      "word_count": 334
+      "word_count": 294
+    },
+    {
+      "rank": 4,
+      "model": "stockmark/stockmark-2-100b-instruct",
+      "response_time": 12.29,
+      "quality_score": 0.57,
+      "word_count": 14
+    },
+    {
+      "rank": 5,
+      "model": "mistralai/mistral-small-24b-instruct",
+      "response_time": 12.94,
+      "quality_score": 1.0,
+      "word_count": 239
     }
   ]
 }
