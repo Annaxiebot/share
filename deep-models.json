@@ -1,43 +1,43 @@
 {
-  "updated": "2026-04-11T03:09:42.462900",
+  "updated": "2026-04-12T03:09:43.103872",
   "description": "Models for deep research - slowest 25% (75-100th percentile). Most thorough responses.",
-  "benchmark_file": "benchmark-20260411-030001.json",
+  "benchmark_file": "benchmark-20260412-030002.json",
   "timeout": 120,
   "deep_models": [
     {
       "rank": 1,
-      "model": "openai/gpt-oss-120b",
-      "response_time": 10.94,
+      "model": "institute-of-science-tokyo/llama-3.1-swallow-8b-instruct-v0.1",
+      "response_time": 11.2,
       "quality_score": 1.0,
-      "word_count": 841
+      "word_count": 340
     },
     {
       "rank": 2,
       "model": "microsoft/phi-3-medium-4k-instruct",
-      "response_time": 11.42,
+      "response_time": 11.43,
       "quality_score": 1.0,
       "word_count": 294
     },
     {
       "rank": 3,
       "model": "mistralai/mistral-medium-3-instruct",
-      "response_time": 12.24,
+      "response_time": 11.95,
       "quality_score": 1.0,
-      "word_count": 294
+      "word_count": 231
     },
     {
       "rank": 4,
-      "model": "stockmark/stockmark-2-100b-instruct",
-      "response_time": 12.29,
-      "quality_score": 0.57,
-      "word_count": 14
+      "model": "qwen/qwen3.5-122b-a10b",
+      "response_time": 12.73,
+      "quality_score": 1.0,
+      "word_count": 491
     },
     {
       "rank": 5,
       "model": "mistralai/mistral-small-24b-instruct",
-      "response_time": 12.94,
+      "response_time": 13.4,
       "quality_score": 1.0,
-      "word_count": 239
+      "word_count": 260
     }
   ]
 }
