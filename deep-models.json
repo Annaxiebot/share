@@ -1,43 +1,43 @@
 {
-  "updated": "2026-04-13T03:15:27.419322",
+  "updated": "2026-04-13T03:20:54.134390",
   "description": "Models for deep research - slowest 25% (75-100th percentile). Most thorough responses.",
-  "benchmark_file": "benchmark-20260413-030525.json",
+  "benchmark_file": "benchmark-20260413-031102.json",
   "timeout": 120,
   "deep_models": [
     {
       "rank": 1,
-      "model": "speakleash/bielik-11b-v2.6-instruct",
-      "response_time": 11.08,
+      "model": "openai/gpt-oss-120b",
+      "response_time": 10.94,
       "quality_score": 1.0,
-      "word_count": 129
+      "word_count": 664
     },
     {
       "rank": 2,
-      "model": "speakleash/bielik-11b-v2.3-instruct",
-      "response_time": 11.16,
+      "model": "moonshotai/kimi-k2-instruct-0905",
+      "response_time": 11.06,
       "quality_score": 1.0,
       "word_count": 258
     },
     {
       "rank": 3,
-      "model": "mistralai/devstral-2-123b-instruct-2512",
-      "response_time": 11.79,
-      "quality_score": 1.0,
-      "word_count": 367
-    },
-    {
-      "rank": 4,
       "model": "microsoft/phi-3-medium-4k-instruct",
-      "response_time": 11.84,
+      "response_time": 11.38,
       "quality_score": 1.0,
       "word_count": 294
     },
     {
-      "rank": 5,
-      "model": "google/gemma-2-9b-it",
-      "response_time": 12.81,
+      "rank": 4,
+      "model": "mistralai/mixtral-8x7b-instruct-v0.1",
+      "response_time": 11.91,
       "quality_score": 1.0,
-      "word_count": 315
+      "word_count": 197
+    },
+    {
+      "rank": 5,
+      "model": "moonshotai/kimi-k2-thinking",
+      "response_time": 13.48,
+      "quality_score": 1.0,
+      "word_count": 293
     }
   ]
 }
