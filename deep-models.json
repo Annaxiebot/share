@@ -1,43 +1,43 @@
 {
-  "updated": "2026-04-13T03:09:57.253002",
+  "updated": "2026-04-13T03:10:02.966868",
   "description": "Models for deep research - slowest 25% (75-100th percentile). Most thorough responses.",
-  "benchmark_file": "benchmark-20260413-030015.json",
+  "benchmark_file": "benchmark-20260413-030001.json",
   "timeout": 120,
   "deep_models": [
     {
       "rank": 1,
-      "model": "tokyotech-llm/llama-3-swallow-70b-instruct-v0.1",
-      "response_time": 12.28,
-      "quality_score": 1.0,
-      "word_count": 168
-    },
-    {
-      "rank": 2,
-      "model": "mistralai/mixtral-8x7b-instruct-v0.1",
-      "response_time": 12.89,
-      "quality_score": 1.0,
-      "word_count": 173
-    },
-    {
-      "rank": 3,
-      "model": "institute-of-science-tokyo/llama-3.1-swallow-8b-instruct-v0.1",
-      "response_time": 13.23,
-      "quality_score": 1.0,
-      "word_count": 393
-    },
-    {
-      "rank": 4,
       "model": "mistralai/mistral-small-4-119b-2603",
-      "response_time": 13.24,
+      "response_time": 12.64,
       "quality_score": 1.0,
       "word_count": 537
     },
     {
-      "rank": 5,
+      "rank": 2,
       "model": "openai/gpt-oss-120b",
-      "response_time": 13.65,
+      "response_time": 12.66,
       "quality_score": 1.0,
-      "word_count": 1130
+      "word_count": 867
+    },
+    {
+      "rank": 3,
+      "model": "mistralai/ministral-14b-instruct-2512",
+      "response_time": 13.05,
+      "quality_score": 1.0,
+      "word_count": 449
+    },
+    {
+      "rank": 4,
+      "model": "nvidia/nvidia-nemotron-nano-9b-v2",
+      "response_time": 13.54,
+      "quality_score": 1.0,
+      "word_count": 218
+    },
+    {
+      "rank": 5,
+      "model": "mistralai/mistral-medium-3-instruct",
+      "response_time": 13.55,
+      "quality_score": 1.0,
+      "word_count": 310
     }
   ]
 }
