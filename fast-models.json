@@ -1,45 +1,45 @@
 {
-  "updated": "2026-04-14T03:09:59.775257",
+  "updated": "2026-04-14T03:10:05.341428",
   "description": "Fastest models for quick verification. Timeout: 10 seconds.",
-  "benchmark_file": "benchmark-20260414-030002.json",
+  "benchmark_file": "benchmark-20260414-030016.json",
   "total_models_tested": 178,
-  "successful_models": 69,
+  "successful_models": 71,
   "timeout": 10,
   "fast_models": [
     {
       "rank": 1,
       "model": "meta/llama-3.2-1b-instruct",
-      "response_time": 2.3,
+      "response_time": 2.4,
       "quality_score": 1.0,
       "word_count": 289
     },
     {
       "rank": 2,
-      "model": "meta/llama-3.1-8b-instruct",
-      "response_time": 2.45,
-      "quality_score": 1.0,
-      "word_count": 224
+      "model": "microsoft/phi-3-small-8k-instruct",
+      "response_time": 2.51,
+      "quality_score": 0.94,
+      "word_count": 87
     },
     {
       "rank": 3,
-      "model": "mistralai/mixtral-8x22b-instruct-v0.1",
-      "response_time": 2.65,
-      "quality_score": 1.0,
-      "word_count": 164
-    },
-    {
-      "rank": 4,
       "model": "rakuten/rakutenai-7b-chat",
-      "response_time": 2.71,
+      "response_time": 2.64,
       "quality_score": 0.86,
       "word_count": 72
     },
     {
+      "rank": 4,
+      "model": "marin/marin-8b-instruct",
+      "response_time": 2.78,
+      "quality_score": 1.0,
+      "word_count": 138
+    },
+    {
       "rank": 5,
-      "model": "thudm/chatglm3-6b",
-      "response_time": 2.72,
-      "quality_score": 0.98,
-      "word_count": 96
+      "model": "meta/llama-3.1-8b-instruct",
+      "response_time": 2.97,
+      "quality_score": 1.0,
+      "word_count": 318
     }
   ]
 }

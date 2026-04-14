@@ -1,43 +1,43 @@
 {
-  "updated": "2026-04-14T03:09:59.775283",
+  "updated": "2026-04-14T03:10:05.341457",
   "description": "Models for deep research - slowest 25% (75-100th percentile). Most thorough responses.",
-  "benchmark_file": "benchmark-20260414-030002.json",
+  "benchmark_file": "benchmark-20260414-030016.json",
   "timeout": 120,
   "deep_models": [
     {
       "rank": 1,
-      "model": "mistralai/mistral-large-3-675b-instruct-2512",
-      "response_time": 10.81,
-      "quality_score": 1.0,
-      "word_count": 440
-    },
-    {
-      "rank": 2,
-      "model": "mistralai/mistral-nemotron",
-      "response_time": 11.26,
-      "quality_score": 1.0,
-      "word_count": 299
-    },
-    {
-      "rank": 3,
       "model": "microsoft/phi-3-medium-4k-instruct",
-      "response_time": 11.39,
+      "response_time": 11.46,
       "quality_score": 1.0,
       "word_count": 294
     },
     {
-      "rank": 4,
-      "model": "meta/llama-3.2-11b-vision-instruct",
-      "response_time": 11.54,
+      "rank": 2,
+      "model": "stockmark/stockmark-2-100b-instruct",
+      "response_time": 12.0,
+      "quality_score": 0.57,
+      "word_count": 14
+    },
+    {
+      "rank": 3,
+      "model": "mistralai/mistral-small-24b-instruct",
+      "response_time": 12.59,
       "quality_score": 1.0,
-      "word_count": 259
+      "word_count": 254
+    },
+    {
+      "rank": 4,
+      "model": "mistralai/mixtral-8x7b-instruct-v0.1",
+      "response_time": 12.81,
+      "quality_score": 1.0,
+      "word_count": 227
     },
     {
       "rank": 5,
-      "model": "mistralai/mistral-small-4-119b-2603",
-      "response_time": 11.64,
+      "model": "qwen/qwen3-next-80b-a3b-thinking",
+      "response_time": 12.82,
       "quality_score": 1.0,
-      "word_count": 390
+      "word_count": 1558
     }
   ]
 }
