@@ -1,31 +1,31 @@
 {
-  "updated": "2026-04-15T03:06:53.694384",
+  "updated": "2026-04-15T03:06:56.693623",
   "description": "Fastest models for quick verification. Timeout: 10 seconds.",
-  "benchmark_file": "benchmark-20260415-030002.json",
+  "benchmark_file": "benchmark-20260415-030016.json",
   "total_models_tested": 122,
-  "successful_models": 33,
+  "successful_models": 35,
   "timeout": 10,
   "fast_models": [
     {
       "rank": 1,
       "model": "meta/llama-3.2-1b-instruct",
-      "response_time": 2.36,
+      "response_time": 2.34,
       "quality_score": 1.0,
       "word_count": 294
     },
     {
       "rank": 2,
-      "model": "mistralai/mixtral-8x22b-instruct-v0.1",
-      "response_time": 2.72,
+      "model": "nvidia/nemotron-nano-12b-v2-vl",
+      "response_time": 2.63,
       "quality_score": 1.0,
-      "word_count": 196
+      "word_count": 222
     },
     {
       "rank": 3,
-      "model": "meta/llama-3.1-8b-instruct",
-      "response_time": 2.93,
+      "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+      "response_time": 2.89,
       "quality_score": 1.0,
-      "word_count": 342
+      "word_count": 195
     }
   ]
 }
