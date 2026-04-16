@@ -1,9 +1,9 @@
 {
-  "updated": "2026-04-16T03:06:29.982458",
+  "updated": "2026-04-16T03:06:54.426684",
   "description": "Fastest models for quick verification. Timeout: 10 seconds.",
-  "benchmark_file": "benchmark-20260416-030002.json",
+  "benchmark_file": "benchmark-20260416-030016.json",
   "total_models_tested": 122,
-  "successful_models": 38,
+  "successful_models": 36,
   "timeout": 10,
   "fast_models": [
     {
@@ -15,17 +15,17 @@
     },
     {
       "rank": 2,
-      "model": "google/gemma-7b",
-      "response_time": 2.19,
-      "quality_score": 0.73,
-      "word_count": 47
+      "model": "meta/llama-3.1-8b-instruct",
+      "response_time": 2.26,
+      "quality_score": 1.0,
+      "word_count": 276
     },
     {
       "rank": 3,
-      "model": "mistralai/mixtral-8x22b-instruct-v0.1",
-      "response_time": 2.67,
-      "quality_score": 1.0,
-      "word_count": 169
+      "model": "google/gemma-7b",
+      "response_time": 3.13,
+      "quality_score": 0.91,
+      "word_count": 81
     }
   ]
 }
