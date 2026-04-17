@@ -1,31 +1,31 @@
 {
-  "updated": "2026-04-16T03:06:54.426684",
+  "updated": "2026-04-17T03:06:52.943769",
   "description": "Fastest models for quick verification. Timeout: 10 seconds.",
-  "benchmark_file": "benchmark-20260416-030016.json",
+  "benchmark_file": "benchmark-20260417-030015.json",
   "total_models_tested": 122,
-  "successful_models": 36,
+  "successful_models": 35,
   "timeout": 10,
   "fast_models": [
     {
       "rank": 1,
+      "model": "qwen/qwen3-coder-480b-a35b-instruct",
+      "response_time": 1.86,
+      "quality_score": 1.0,
+      "word_count": 177
+    },
+    {
+      "rank": 2,
       "model": "meta/llama-3.2-1b-instruct",
-      "response_time": 2.11,
+      "response_time": 2.15,
       "quality_score": 1.0,
       "word_count": 289
     },
     {
-      "rank": 2,
-      "model": "meta/llama-3.1-8b-instruct",
-      "response_time": 2.26,
-      "quality_score": 1.0,
-      "word_count": 276
-    },
-    {
       "rank": 3,
       "model": "google/gemma-7b",
-      "response_time": 3.13,
-      "quality_score": 0.91,
-      "word_count": 81
+      "response_time": 2.9,
+      "quality_score": 0.85,
+      "word_count": 70
     }
   ]
 }
