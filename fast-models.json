@@ -1,17 +1,17 @@
 {
-  "updated": "2026-04-19T03:06:50.773896",
+  "updated": "2026-04-19T03:11:58.565988",
   "description": "Fastest models for quick verification. Timeout: 10 seconds.",
-  "benchmark_file": "benchmark-20260419-030017.json",
+  "benchmark_file": "benchmark-20260419-030523.json",
   "total_models_tested": 121,
-  "successful_models": 32,
+  "successful_models": 34,
   "timeout": 10,
   "fast_models": [
     {
       "rank": 1,
-      "model": "qwen/qwen3-coder-480b-a35b-instruct",
-      "response_time": 2.05,
+      "model": "meta/llama-3.1-8b-instruct",
+      "response_time": 2.08,
       "quality_score": 1.0,
-      "word_count": 218
+      "word_count": 236
     },
     {
       "rank": 2,
@@ -22,10 +22,10 @@
     },
     {
       "rank": 3,
-      "model": "meta/llama-3.1-8b-instruct",
-      "response_time": 2.77,
+      "model": "openai/gpt-oss-20b",
+      "response_time": 2.71,
       "quality_score": 1.0,
-      "word_count": 337
+      "word_count": 408
     }
   ]
 }
