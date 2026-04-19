@@ -1,334 +1,341 @@
 {
-  "updated": "2026-04-19T03:06:35.264369",
+  "updated": "2026-04-19T03:06:50.773933",
   "name": "NVIDIA API Models - Complete Catalog",
   "description": "Complete list of ALL working models hosted on NVIDIA API. Includes conversational, vision, embedding, safety, code, math, and other model types. Updated daily.",
-  "benchmark_file": "benchmark-20260419-030002.json",
+  "benchmark_file": "benchmark-20260419-030017.json",
   "total_models_tested": 121,
-  "total_working": 31,
-  "total_conversational": 31,
+  "total_working": 32,
+  "total_conversational": 32,
   "models": [
     {
       "rank": 1,
-      "model": "meta/llama-3.1-8b-instruct",
-      "type": "conversational",
-      "response_time": 2.17,
+      "model": "qwen/qwen3-coder-480b-a35b-instruct",
+      "type": "code",
+      "response_time": 2.05,
       "quality_score": 1.0,
-      "word_count": 273,
+      "word_count": 218,
       "percentile": 0.0
     },
     {
       "rank": 2,
-      "model": "mistralai/mixtral-8x22b-instruct-v0.1",
+      "model": "meta/llama-3.2-1b-instruct",
       "type": "conversational",
-      "response_time": 2.33,
+      "response_time": 2.16,
       "quality_score": 1.0,
-      "word_count": 144,
-      "percentile": 3.2
+      "word_count": 289,
+      "percentile": 3.1
     },
     {
       "rank": 3,
-      "model": "meta/llama-3.2-1b-instruct",
+      "model": "meta/llama-3.1-8b-instruct",
       "type": "conversational",
-      "response_time": 2.33,
+      "response_time": 2.77,
       "quality_score": 1.0,
-      "word_count": 294,
-      "percentile": 6.5
+      "word_count": 337,
+      "percentile": 6.2
     },
     {
       "rank": 4,
-      "model": "openai/gpt-oss-20b",
+      "model": "mistralai/mixtral-8x22b-instruct-v0.1",
       "type": "conversational",
-      "response_time": 3.1,
+      "response_time": 3.13,
       "quality_score": 1.0,
-      "word_count": 302,
-      "percentile": 9.7
+      "word_count": 193,
+      "percentile": 9.4
     },
     {
       "rank": 5,
-      "model": "openai/gpt-oss-20b",
+      "model": "microsoft/phi-4-multimodal-instruct",
       "type": "conversational",
-      "response_time": 3.36,
+      "response_time": 3.4,
       "quality_score": 1.0,
-      "word_count": 425,
-      "percentile": 12.9
+      "word_count": 203,
+      "percentile": 12.5
     },
     {
       "rank": 6,
-      "model": "meta/llama-4-maverick-17b-128e-instruct",
+      "model": "nvidia/nemotron-mini-4b-instruct",
       "type": "conversational",
-      "response_time": 3.6,
+      "response_time": 3.75,
       "quality_score": 1.0,
-      "word_count": 327,
-      "percentile": 16.1
+      "word_count": 228,
+      "percentile": 15.6
     },
     {
       "rank": 7,
-      "model": "meta/llama-3.2-3b-instruct",
+      "model": "google/gemma-2-2b-it",
       "type": "conversational",
-      "response_time": 3.6,
+      "response_time": 4.2,
       "quality_score": 1.0,
-      "word_count": 204,
-      "percentile": 19.4
+      "word_count": 259,
+      "percentile": 18.8
     },
     {
       "rank": 8,
-      "model": "nvidia/nemotron-mini-4b-instruct",
+      "model": "openai/gpt-oss-20b",
       "type": "conversational",
-      "response_time": 3.67,
+      "response_time": 4.49,
       "quality_score": 1.0,
-      "word_count": 228,
-      "percentile": 22.6
+      "word_count": 615,
+      "percentile": 21.9
     },
     {
       "rank": 9,
-      "model": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
+      "model": "meta/llama-3.2-3b-instruct",
       "type": "conversational",
-      "response_time": 4.52,
+      "response_time": 4.53,
       "quality_score": 1.0,
-      "word_count": 106,
-      "percentile": 25.8
+      "word_count": 276,
+      "percentile": 25.0
     },
     {
       "rank": 10,
-      "model": "qwen/qwen2.5-coder-32b-instruct",
-      "type": "code",
-      "response_time": 4.75,
+      "model": "nvidia/nemotron-3-nano-30b-a3b",
+      "type": "conversational",
+      "response_time": 4.61,
       "quality_score": 1.0,
-      "word_count": 216,
-      "percentile": 29.0
+      "word_count": 511,
+      "percentile": 28.1
     },
     {
       "rank": 11,
-      "model": "google/gemma-2-2b-it",
-      "type": "conversational",
-      "response_time": 5.1,
+      "model": "qwen/qwen2.5-coder-32b-instruct",
+      "type": "code",
+      "response_time": 4.68,
       "quality_score": 1.0,
-      "word_count": 342,
-      "percentile": 32.3
+      "word_count": 220,
+      "percentile": 31.2
     },
     {
       "rank": 12,
-      "model": "microsoft/phi-4-multimodal-instruct",
+      "model": "openai/gpt-oss-20b",
       "type": "conversational",
-      "response_time": 5.55,
+      "response_time": 5.02,
       "quality_score": 1.0,
-      "word_count": 278,
-      "percentile": 35.5
+      "word_count": 621,
+      "percentile": 34.4
     },
     {
       "rank": 13,
-      "model": "nvidia/nemotron-nano-12b-v2-vl",
+      "model": "meta/llama-4-maverick-17b-128e-instruct",
       "type": "conversational",
-      "response_time": 5.57,
+      "response_time": 5.06,
       "quality_score": 1.0,
-      "word_count": 404,
-      "percentile": 38.7
+      "word_count": 437,
+      "percentile": 37.5
     },
     {
       "rank": 14,
-      "model": "nvidia/nemotron-3-nano-30b-a3b",
+      "model": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
       "type": "conversational",
-      "response_time": 6.81,
+      "response_time": 5.29,
       "quality_score": 1.0,
-      "word_count": 694,
-      "percentile": 41.9
+      "word_count": 132,
+      "percentile": 40.6
     },
     {
       "rank": 15,
-      "model": "qwen/qwen3-coder-480b-a35b-instruct",
-      "type": "code",
-      "response_time": 8.06,
+      "model": "nvidia/llama-3.1-nemotron-nano-8b-v1",
+      "type": "conversational",
+      "response_time": 5.76,
       "quality_score": 1.0,
-      "word_count": 220,
-      "percentile": 45.2
+      "word_count": 253,
+      "percentile": 43.8
     },
     {
       "rank": 16,
       "model": "moonshotai/kimi-k2-instruct-0905",
       "type": "conversational",
-      "response_time": 8.96,
+      "response_time": 6.96,
       "quality_score": 1.0,
-      "word_count": 192,
-      "percentile": 48.4
+      "word_count": 180,
+      "percentile": 46.9
     },
     {
       "rank": 17,
       "model": "openai/gpt-oss-120b",
       "type": "conversational",
-      "response_time": 10.51,
+      "response_time": 7.69,
       "quality_score": 1.0,
-      "word_count": 673,
-      "percentile": 51.6
+      "word_count": 588,
+      "percentile": 50.0
     },
     {
       "rank": 18,
-      "model": "upstage/solar-10.7b-instruct",
+      "model": "nvidia/nemotron-nano-12b-v2-vl",
       "type": "conversational",
-      "response_time": 10.53,
+      "response_time": 7.94,
       "quality_score": 1.0,
-      "word_count": 208,
-      "percentile": 54.8
+      "word_count": 483,
+      "percentile": 53.1
     },
     {
       "rank": 19,
-      "model": "qwen/qwen3.5-122b-a10b",
+      "model": "moonshotai/kimi-k2-instruct",
       "type": "conversational",
-      "response_time": 10.6,
+      "response_time": 8.57,
       "quality_score": 1.0,
-      "word_count": 507,
-      "percentile": 58.1
+      "word_count": 172,
+      "percentile": 56.2
     },
     {
       "rank": 20,
-      "model": "nvidia/llama-3.1-nemotron-nano-8b-v1",
+      "model": "upstage/solar-10.7b-instruct",
       "type": "conversational",
-      "response_time": 10.65,
+      "response_time": 10.56,
       "quality_score": 1.0,
-      "word_count": 333,
-      "percentile": 61.3
+      "word_count": 218,
+      "percentile": 59.4
     },
     {
       "rank": 21,
-      "model": "mistralai/ministral-14b-instruct-2512",
+      "model": "stockmark/stockmark-2-100b-instruct",
       "type": "conversational",
-      "response_time": 10.92,
-      "quality_score": 1.0,
-      "word_count": 426,
-      "percentile": 64.5
+      "response_time": 11.48,
+      "quality_score": 0.57,
+      "word_count": 14,
+      "percentile": 62.5
     },
     {
       "rank": 22,
-      "model": "nvidia/ising-calibration-1-35b-a3b",
+      "model": "stepfun-ai/step-3.5-flash",
       "type": "conversational",
-      "response_time": 11.03,
+      "response_time": 12.43,
       "quality_score": 1.0,
-      "word_count": 408,
-      "percentile": 67.7
+      "word_count": 559,
+      "percentile": 65.6
     },
     {
       "rank": 23,
       "model": "mistralai/mistral-small-4-119b-2603",
       "type": "conversational",
-      "response_time": 11.07,
+      "response_time": 13.53,
       "quality_score": 1.0,
-      "word_count": 722,
-      "percentile": 71.0
+      "word_count": 777,
+      "percentile": 68.8
     },
     {
       "rank": 24,
-      "model": "stockmark/stockmark-2-100b-instruct",
+      "model": "openai/gpt-oss-120b",
       "type": "conversational",
-      "response_time": 11.22,
-      "quality_score": 0.57,
-      "word_count": 14,
-      "percentile": 74.2
+      "response_time": 13.97,
+      "quality_score": 1.0,
+      "word_count": 1034,
+      "percentile": 71.9
     },
     {
       "rank": 25,
-      "model": "mistralai/mistral-nemotron",
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
       "type": "conversational",
-      "response_time": 12.7,
+      "response_time": 14.43,
       "quality_score": 1.0,
-      "word_count": 275,
-      "percentile": 77.4
+      "word_count": 491,
+      "percentile": 75.0
     },
     {
       "rank": 26,
-      "model": "moonshotai/kimi-k2-instruct",
+      "model": "qwen/qwen3.5-122b-a10b",
       "type": "conversational",
-      "response_time": 14.99,
+      "response_time": 14.7,
       "quality_score": 1.0,
-      "word_count": 312,
-      "percentile": 80.6
+      "word_count": 660,
+      "percentile": 78.1
     },
     {
       "rank": 27,
-      "model": "openai/gpt-oss-120b",
+      "model": "mistralai/mistral-nemotron",
       "type": "conversational",
-      "response_time": 15.55,
+      "response_time": 15.39,
       "quality_score": 1.0,
-      "word_count": 1014,
-      "percentile": 83.9
+      "word_count": 327,
+      "percentile": 81.2
     },
     {
       "rank": 28,
-      "model": "meta/llama-3.2-90b-vision-instruct",
-      "type": "vision",
-      "response_time": 17.11,
+      "model": "mistralai/mistral-medium-3-instruct",
+      "type": "conversational",
+      "response_time": 15.83,
       "quality_score": 1.0,
-      "word_count": 238,
-      "percentile": 87.1
+      "word_count": 274,
+      "percentile": 84.4
     },
     {
       "rank": 29,
-      "model": "z-ai/glm4.7",
+      "model": "meta/llama-3.3-70b-instruct",
       "type": "conversational",
-      "response_time": 19.33,
+      "response_time": 16.37,
       "quality_score": 1.0,
-      "word_count": 453,
-      "percentile": 90.3
+      "word_count": 307,
+      "percentile": 87.5
     },
     {
       "rank": 30,
-      "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+      "model": "minimaxai/minimax-m2.5",
       "type": "conversational",
-      "response_time": 19.55,
+      "response_time": 18.93,
       "quality_score": 1.0,
-      "word_count": 522,
-      "percentile": 93.5
+      "word_count": 576,
+      "percentile": 90.6
     },
     {
       "rank": 31,
-      "model": "mistralai/mistral-medium-3-instruct",
+      "model": "qwen/qwen3-next-80b-a3b-thinking",
       "type": "conversational",
-      "response_time": 19.79,
+      "response_time": 19.08,
       "quality_score": 1.0,
-      "word_count": 263,
-      "percentile": 96.8
+      "word_count": 136,
+      "percentile": 93.8
+    },
+    {
+      "rank": 32,
+      "model": "nvidia/nvidia-nemotron-nano-9b-v2",
+      "type": "conversational",
+      "response_time": 19.38,
+      "quality_score": 1.0,
+      "word_count": 257,
+      "percentile": 96.9
     }
   ],
   "by_type": {
+    "code": [
+      "qwen/qwen3-coder-480b-a35b-instruct",
+      "qwen/qwen2.5-coder-32b-instruct"
+    ],
     "conversational": [
+      "meta/llama-3.2-1b-instruct",
       "meta/llama-3.1-8b-instruct",
       "mistralai/mixtral-8x22b-instruct-v0.1",
-      "meta/llama-3.2-1b-instruct",
+      "microsoft/phi-4-multimodal-instruct",
+      "nvidia/nemotron-mini-4b-instruct",
+      "google/gemma-2-2b-it",
       "openai/gpt-oss-20b",
+      "meta/llama-3.2-3b-instruct",
+      "nvidia/nemotron-3-nano-30b-a3b",
       "openai/gpt-oss-20b",
       "meta/llama-4-maverick-17b-128e-instruct",
-      "meta/llama-3.2-3b-instruct",
-      "nvidia/nemotron-mini-4b-instruct",
       "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
-      "google/gemma-2-2b-it",
-      "microsoft/phi-4-multimodal-instruct",
-      "nvidia/nemotron-nano-12b-v2-vl",
-      "nvidia/nemotron-3-nano-30b-a3b",
+      "nvidia/llama-3.1-nemotron-nano-8b-v1",
       "moonshotai/kimi-k2-instruct-0905",
       "openai/gpt-oss-120b",
-      "upstage/solar-10.7b-instruct",
-      "qwen/qwen3.5-122b-a10b",
-      "nvidia/llama-3.1-nemotron-nano-8b-v1",
-      "mistralai/ministral-14b-instruct-2512",
-      "nvidia/ising-calibration-1-35b-a3b",
-      "mistralai/mistral-small-4-119b-2603",
-      "stockmark/stockmark-2-100b-instruct",
-      "mistralai/mistral-nemotron",
+      "nvidia/nemotron-nano-12b-v2-vl",
       "moonshotai/kimi-k2-instruct",
+      "upstage/solar-10.7b-instruct",
+      "stockmark/stockmark-2-100b-instruct",
+      "stepfun-ai/step-3.5-flash",
+      "mistralai/mistral-small-4-119b-2603",
       "openai/gpt-oss-120b",
-      "z-ai/glm4.7",
-      "nvidia/llama-3.3-nemotron-super-49b-v1",
-      "mistralai/mistral-medium-3-instruct"
-    ],
-    "code": [
-      "qwen/qwen2.5-coder-32b-instruct",
-      "qwen/qwen3-coder-480b-a35b-instruct"
-    ],
-    "vision": [
-      "meta/llama-3.2-90b-vision-instruct"
+      "qwen/qwen3-next-80b-a3b-instruct",
+      "qwen/qwen3.5-122b-a10b",
+      "mistralai/mistral-nemotron",
+      "mistralai/mistral-medium-3-instruct",
+      "meta/llama-3.3-70b-instruct",
+      "minimaxai/minimax-m2.5",
+      "qwen/qwen3-next-80b-a3b-thinking",
+      "nvidia/nvidia-nemotron-nano-9b-v2"
     ]
   },
   "type_counts": {
-    "conversational": 28,
     "code": 2,
-    "vision": 1
+    "conversational": 30
   }
 }
