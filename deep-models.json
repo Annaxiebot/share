@@ -1,43 +1,43 @@
 {
-  "updated": "2026-04-20T03:06:59.697734",
+  "updated": "2026-04-21T03:06:38.026408",
   "description": "Models for deep research - slowest 25% (75-100th percentile). Most thorough responses.",
-  "benchmark_file": "benchmark-20260420-030017.json",
+  "benchmark_file": "benchmark-20260421-030001.json",
   "timeout": 120,
   "deep_models": [
     {
       "rank": 1,
-      "model": "openai/gpt-oss-120b",
-      "response_time": 13.76,
-      "quality_score": 1.0,
-      "word_count": 1029
-    },
-    {
-      "rank": 2,
       "model": "stockmark/stockmark-2-100b-instruct",
-      "response_time": 14.12,
+      "response_time": 10.27,
       "quality_score": 0.57,
       "word_count": 14
     },
     {
-      "rank": 3,
-      "model": "qwen/qwen3-next-80b-a3b-instruct",
-      "response_time": 14.21,
+      "rank": 2,
+      "model": "qwen/qwen3.5-122b-a10b",
+      "response_time": 10.36,
       "quality_score": 1.0,
-      "word_count": 430
+      "word_count": 495
+    },
+    {
+      "rank": 3,
+      "model": "meta/llama-3.1-405b-instruct",
+      "response_time": 10.7,
+      "quality_score": 1.0,
+      "word_count": 295
     },
     {
       "rank": 4,
       "model": "mistralai/ministral-14b-instruct-2512",
-      "response_time": 15.28,
+      "response_time": 12.13,
       "quality_score": 1.0,
-      "word_count": 483
+      "word_count": 486
     },
     {
       "rank": 5,
-      "model": "mistralai/mistral-nemotron",
-      "response_time": 15.59,
+      "model": "qwen/qwen3-next-80b-a3b-instruct",
+      "response_time": 14.19,
       "quality_score": 1.0,
-      "word_count": 279
+      "word_count": 526
     }
   ]
 }
