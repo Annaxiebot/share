@@ -1,9 +1,9 @@
 {
-  "updated": "2026-04-22T03:06:57.161544",
+  "updated": "2026-04-22T03:07:17.611936",
   "description": "Fastest models for quick verification. Timeout: 10 seconds.",
-  "benchmark_file": "benchmark-20260422-030002.json",
+  "benchmark_file": "benchmark-20260422-030015.json",
   "total_models_tested": 121,
-  "successful_models": 32,
+  "successful_models": 29,
   "timeout": 10,
   "fast_models": [
     {
@@ -16,16 +16,9 @@
     {
       "rank": 2,
       "model": "mistralai/mixtral-8x22b-instruct-v0.1",
-      "response_time": 2.54,
+      "response_time": 3.16,
       "quality_score": 1.0,
-      "word_count": 170
-    },
-    {
-      "rank": 3,
-      "model": "nvidia/nemotron-mini-4b-instruct",
-      "response_time": 3.37,
-      "quality_score": 1.0,
-      "word_count": 228
+      "word_count": 203
     }
   ]
 }
