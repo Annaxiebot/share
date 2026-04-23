@@ -1,43 +1,43 @@
 {
-  "updated": "2026-04-22T03:07:17.611958",
+  "updated": "2026-04-23T03:06:50.521802",
   "description": "Models for deep research - slowest 25% (75-100th percentile). Most thorough responses.",
-  "benchmark_file": "benchmark-20260422-030015.json",
+  "benchmark_file": "benchmark-20260423-030002.json",
   "timeout": 120,
   "deep_models": [
     {
       "rank": 1,
-      "model": "nvidia/nemotron-3-nano-30b-a3b",
-      "response_time": 11.69,
+      "model": "mistralai/mistral-nemotron",
+      "response_time": 12.26,
       "quality_score": 1.0,
-      "word_count": 820
+      "word_count": 292
     },
     {
       "rank": 2,
-      "model": "mistralai/mistral-nemotron",
-      "response_time": 12.08,
+      "model": "openai/gpt-oss-120b",
+      "response_time": 12.86,
       "quality_score": 1.0,
-      "word_count": 263
+      "word_count": 920
     },
     {
       "rank": 3,
-      "model": "mistralai/ministral-14b-instruct-2512",
-      "response_time": 12.53,
+      "model": "openai/gpt-oss-120b",
+      "response_time": 13.6,
       "quality_score": 1.0,
-      "word_count": 419
+      "word_count": 876
     },
     {
       "rank": 4,
       "model": "nvidia/ising-calibration-1-35b-a3b",
-      "response_time": 14.45,
+      "response_time": 14.12,
       "quality_score": 1.0,
-      "word_count": 486
+      "word_count": 434
     },
     {
       "rank": 5,
-      "model": "qwen/qwen3-next-80b-a3b-instruct",
-      "response_time": 15.45,
+      "model": "mistralai/mistral-small-4-119b-2603",
+      "response_time": 14.35,
       "quality_score": 1.0,
-      "word_count": 502
+      "word_count": 525
     }
   ]
 }
